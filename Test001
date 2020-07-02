@@ -1,0 +1,6 @@
+userPathURL = "https://github.com/iurii-rakhimov/UVR/blob/master/"
+nameFile = "002.txt"
+strNameFileURL = userPathURL + nameFile
+^ArrayFile = FileReadGitHubWithURL(strNameFileURL)
+Title.fontsize=24
+Title.text = 'FileReadGitHubWithURL='+^ArrayFile[0]
