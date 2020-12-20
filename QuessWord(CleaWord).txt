@@ -1,0 +1,9 @@
+// QuessWord(Start).txt
+^N = 0
+^Word = ""
+Letter1.text = ""
+Letter2.text = ""
+Letter3.text = ""
+Letter4.text = ""
+Letter5.text = ""
+Letter6.text = ""
