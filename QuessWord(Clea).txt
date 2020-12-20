@@ -1,0 +1,4 @@
+// QuessWord(Clea).txt
+DoModule CleaWord
+HideObject("Image")
+ShowObject("ListWordTable")
