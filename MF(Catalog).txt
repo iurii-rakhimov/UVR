@@ -1,2 +1,3 @@
-MF_201807_Balance.txt
-MF_201807_Data.txt
+QuessWord(AllWord).txt
+QuessWord(Clea).txt
+QuessWord(CleaWord).txt
