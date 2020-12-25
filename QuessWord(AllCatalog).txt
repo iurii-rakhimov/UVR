@@ -40,7 +40,6 @@ QuessWord(List).txt
 QuessWord(Main).txt
 QuessWord(NoSaveFile).txt
 QuessWord(ObjectBuild).txt
-QuessWord(QuessWord).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
 QuessWord(Title).txt
