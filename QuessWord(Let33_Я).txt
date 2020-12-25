@@ -1,0 +1,4 @@
+// QuessWord(Let33_Я).txt
+
+^Letter = "Я"
+DoModule ViewLetter
