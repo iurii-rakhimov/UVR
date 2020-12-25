@@ -1,0 +1,8 @@
+// QuessWord(CleaAll).txt
+
+DoModule CleaWord
+HideObject("Image")
+HideObject("Save")
+HideObject("Edit")
+HideObject("ListWordTable")
+Title.text = ""
