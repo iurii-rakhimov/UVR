@@ -3,7 +3,6 @@ QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
 QuessWord(Edit).txt
-QuessWord(ImportImage).txt
 QuessWord(Let01_А).txt
 QuessWord(Let02_Б).txt
 QuessWord(Let03_В).txt
