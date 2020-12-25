@@ -1,0 +1,4 @@
+// QuessWord(Let16_О).txt
+
+^Letter = "О"
+DoModule ViewLetter
