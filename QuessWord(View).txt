@@ -32,3 +32,7 @@ if NameImage == "Ok320x240"
 	Title.text = "Нет изображения, записать->"
 	ShowObject("Edit")
 }
+else
+{
+	Title.text = ""
+}
