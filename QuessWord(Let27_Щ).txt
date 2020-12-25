@@ -1,0 +1,4 @@
+// QuessWord(Let27_Щ).txt
+
+^Letter = "Щ"
+DoModule ViewLetter
