@@ -2,7 +2,7 @@
 
 Word = QuessWord.text
 
-SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, '/', 0)
+SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
 NameImage = "Image_NO"
