@@ -11,13 +11,11 @@ h = 240
 //
 Create TableView { Name = ListWordTable, Action= SelectWord, X=x, Y=y, Width=w, Height=h, ModelCell=modelCell }
 //
-DelimiterTab = IntToChar(9)
 DelimiterNewLine = IntToChar(10)
 DelimiterMemo = IntToChar(9989)
 ^Path = GetPathDirectoryDocument()
-^NomerOK = "0"
-NameFile = ^Path + "QuessWord(AllWord).txt"
-ContentFile = FileRead(NameFile)
+PathNameFile = ^Path + "QuessWord(AllWord).txt"
+ContentFile = FileRead(PathNameFile)
 ArrayWordImage = Components(ContentFile, DelimiterNewLine)
 //
 Struct TableComment { Word } 
@@ -26,15 +24,17 @@ CountRecords = CountElementsOfArray(ArrayWordImage)
 for Index = 0 ; Index < CountRecords ;  Index ++
 {
 	WordImage = ArrayWordImage[Index]
-	ArrayComponents = Components(WordImage, DelimiterTab)
+	ArrayComponents = Components(WordImage, " ")
 	Word = ArrayComponents[0]
 	^ArrayWord[Index] = Word
 	countComponents = CountElementsOfArray(ArrayComponents)
 	^ArrayImage[Index] = ""
-	If countComponents > 1
+//print "countComponents =" + countComponents
+	if countComponents > 1
 	{
 		TableComment.Word = DelimiterMemo + " " + Word
-		^ArrayImage[Index] = "👍"
+		Image = ArrayComponents[1]
+		^ArrayImage[Index] = Image
 	}
 	else
 	{
@@ -43,4 +43,6 @@ for Index = 0 ; Index < CountRecords ;  Index ++
 	ListWordTable[Index] = TableComment
 }
 HideObject("Image")
+HideObject("Save")
+HideObject("Edit")
 ShowObject("ListWordTable")
