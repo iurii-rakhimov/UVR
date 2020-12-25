@@ -1,0 +1,5 @@
+
+// QuessWord(Let17).txt
+
+^Letter = "П"
+DoModule ViewLetter
