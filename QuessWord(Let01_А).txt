@@ -1,4 +1,0 @@
-// QuessWord(Let01_А).txt
-
-^Letter = "А"
-DoModule ViewLetter
