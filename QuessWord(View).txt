@@ -1,0 +1,34 @@
+// QuessWord(View).txt
+
+Word = QuessWord.text
+
+SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, '/', 0)
+^Index = SelectedIndex
+//Print "SelectedIndex =" + SelectedIndex
+NameImage = "Image_NO"
+if SelectedIndex != -1
+{
+	if ^ArrayImage[SelectedIndex] == ""
+	{
+//Print "Word =" + Word
+		if ^ArrayWord[SelectedIndex] == Word
+		{
+			NameImage = "Ok320x240"
+		}
+	}
+	else
+	{
+		if ^ArrayWord[SelectedIndex] == Word
+		{
+			NameImage = ^ArrayImage[SelectedIndex]
+		}
+	}
+}
+Image.File = NameImage
+HideObject("ListWordTable")
+HideObject("Save")
+if NameImage == "Ok320x240"
+{
+	Title.text = "Нет изображения, записать->"
+	ShowObject("Edit")
+}
