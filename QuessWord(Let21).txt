@@ -1,0 +1,4 @@
+// QuessWord(Let21).txt
+
+^Letter = "У"
+DoModule ViewLetter
