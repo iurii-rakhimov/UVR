@@ -9,7 +9,7 @@ QuessWord(Let03).txt
 QuessWord(Let04).txt
 QuessWord(Let05).txt
 QuessWord(Let06).txt
-QuessWord(Let06).txt
+QuessWord(Let07).txt
 QuessWord(Let08).txt
 QuessWord(Let09).txt
 QuessWord(Let10).txt
