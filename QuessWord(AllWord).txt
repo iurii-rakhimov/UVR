@@ -55,7 +55,7 @@
 ГОЛ
 ДНО
 ЕДА
-ЖИР
+ЖИР https://foodandhealth.ru/wp-content/uploads/2017/05/produkty-soderzhashchie-zhivotnye-zhiry.jpg
 ЖАР
 ИМЯ
 МАГ
@@ -117,61 +117,62 @@
 ЧАС
 ЧУМ http://2.bp.blogspot.com/-58B3vi22LmY/U0Kb0021QzI/AAAAAAAAqbg/Si_OccHciJo/s1600/DSC_0351.JPG
 ЧАН
-ЧИЖ
+ЧИЖ http://komotoz.ru/photo/zhivotnye/images/chizh/chizh_03.jpg
 ШЕФ
-ШОВ
+ШОВ http://4.bp.blogspot.com/--4-JXpN49hw/TVUMs6z7M5I/AAAAAAAAFN0/GClDyw5BrMQ/s1600/stitches16.jpg
 ШАХ
-ШУТ
-ШАР
+ШУТ https://avatars.mds.yandex.net/get-zen_doc/1790220/pub_5caa971e44061700afeacd73_5caa9b7836857c00b077548a/scale_1200
+ШАР https://sayholiday.ru/upload/iblock/07e/07e849f4172416bb86a9179d1a4b010d.jpg
 ШУМ
 ШАГ
 ЩУП
-ЩИТ
+ЩИТ https://cdn1.vectorstock.com/i/1000x1000/70/45/shield-icon-isolated-vector-3087045.jpg
 ЭХО
-ЮЛА
-ЯМА
-АЙВА
-АЛОЭ
-АРКА
-АРЫК
+ЮЛА https://img.akusherstvo.ru/images/magaz/im817157.jpg
+ЯМА https://fishingsblog.ru/wp-content/uploads/2014/08/yama-dlya-hraneniya-ulova-1024x739.jpg
+АЙВА https://images.ru.prom.st/455859249_w640_h640_ajva-mir.jpg
+АЛОЭ https://pot-flowers.ru/wp-content/uploads/2019/07/26-1.jpg
+АРКА https://img.lookmytrips.com/images/look62lj/big-57017057ff936741ad022f85-57ece79496c5b-1buppsl.jpg
+АРЫК https://cdn.nur.kz/images/1120/pogudx3s7g2egeh00g.jpeg
 БАНК
-БАНЯ
-БАЯН
-БИТА
+БАНЯ https://roomester.ru/wp-content/uploads/2019/07/obustrojstvo-bani-7.jpg
+БАЯН https://mirm.ru/info/img_1200/CNT65253.jpg
+БИТА https://images.zakupka.com/i3/firms/27/10224/10224246/bita-beysbolnaya-derevo-25in-l-63sm_b92ba85ca0019ce_800x600.jpg
 БЛЕФ
-БЛИН
+БЛИН http://n1s1.hsmedia.ru/c7/0e/cb/c70ecbd7976208ed4ee1f2b33596f2a8/2121x1414_0xac120003_3672664081560492367.jpg
+БЛИНЫ https://1.bp.blogspot.com/-Gn8aNce1mxM/VmR4vLvrmuI/AAAAAAAAMTw/wzZY4xpfC5Y/s1600/bliny.jpg
 БЛОК
-БОБР
+БОБР https://cdn.spbdnevnik.ru/uploads/block/image/443838/__medium_h1qBN_KHw_w.jpg.jpg
 БОКС
-БОЛТ
+БОЛТ https://electromarket67.ru/files/gallery/664/big/737b2f6aa256f931b770e941c_1481807200.jpg
 БОЛЬ
-БОРЩ
+БОРЩ https://www.vashi-recepti.ru/wp-content/uploads/2018/12/08-12.jpg
 БРАТ
 БУРЯ
 БЫЛЬ
-ВАЗА
-ВАТА
-ВЕСЫ
+ВАЗА https://cs2.livemaster.ru/storage/1f/2e/4801228c207ba60a3b1cbc2da6nb--dlya-doma-i-interera-vazy-dlya-tsvetov.jpg
+ВАТА https://pbs.twimg.com/media/DTFhLdeWsAEztf5.jpg:large
+ВЕСЫ https://img2.pngio.com/download-free-png-golden-off-balance-scale-icons-png-free-png-balance-scale-png-2070_2400.png
 ВИНО
-ВИНТ
+ВИНТ https://vodnik.ru/uploads/images/nomenclature/preview/vint-grebnoy-4x10-2x11-solas_665939.jpg
 ВКУС
 ВНУК
-ВОДА
-ВОЛК
+ВОДА https://boomcdn.azureedge.net/boomstarter/uploads/project/photo/169715/1574423825-photo.jpg
+ВОЛК https://zagadki-dlya-detej.ru/wp-content/uploads/2020/06/volk.jpg
 ВРАГ
-ВРАЧ
-ВЬЮК
+ВРАЧ https://blognovichok.ru/wp-content/uploads/2019/06/vrachi_islam00.jpg
+ВЬЮК https://ds02.infourok.ru/uploads/ex/0b3e/0003c845-df52ea7c/4/img24.jpg
 ДИПЛОДОК https://cdnb.artstation.com/p/assets/images/images/009/084/223/large/yuki-katsuda-brachio35.jpg?1517039757
 ДИНОЗАВР https://www.mirf.ru/wp-content/uploads/2017/09/dinosaur_tyranosaurus_sculpture_fear-1408659.jpg
 ТИРЕКС https://avatars.mds.yandex.net/get-pdb/251121/7e486f19-a269-47c2-9e6f-babed97344f0/s1200?webp=false
-МАСТИФ
-ХАСКИ
-шибоино
-овчарка
-борзая
-далматинец
-Шпиц
-корги
-бульдог
-терьер
-Такса
+МАСТИФ https://joinfo.com/img/2020/04/tibetsky-mastif-seriy-red.jpg
+ХАСКИ https://funik.ru/wp-content/uploads/2018/10/48b402e4be31f3019bb1.jpg
+ШИБОИНО http://dog-1.ru/thumb/2/chgeiEKBVmhCw3dpM2Wh4g/r/d/IMG-20150916-WA0002.jpg
+ОВЧАРКА https://i1.wallbox.ru/wallpapers/main/201616/6fede2d8f39c864.jpg
+БОРЗАЯ https://zeleniymir.org/wp-content/uploads/2019/04/Russkaya-psovaya-borzaya-72-1024x687.jpg
+ДАЛМАТИНЕЦ https://porodysobak.com/wp-content/uploads/2019/12/Dalmatinets.jpg
+ШПИЦ https://prosobak.net/wp-content/uploads/2019/11/pomeranskij-shpic-jpg.jpeg
+КОРГИ https://avatars.mds.yandex.net/get-pdb/1734110/525bc84e-bf07-4f4d-b73b-467efba5f04b/s1200
+БУЛЬДОГ https://www.mydogbreeders.com/images/dogs/english-bulldog/english-bulldog-044.jpg
+ТЕРЬЕР https://aneco.ru/wp-content/uploads/2020/05/Kern-terer-1024x1024.jpg
+ТАКСА https://dogs4you.ru/wp-content/uploads/2020/05/rabbit-dachshund-4-1024x701.jpg
