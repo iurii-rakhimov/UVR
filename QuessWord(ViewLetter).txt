@@ -1,6 +1,6 @@
 // QuessWord(ViewLetter).txt
 
 Word = QuessWord.text
-Word = Word + ^Letter
-QuessWord.text = Word
+^Word = Word + ^Letter
+QuessWord.text = ^Word
 DoModule View
