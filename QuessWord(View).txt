@@ -5,8 +5,10 @@ Word = ^Word
 lenWord = LengthString(Word)
 if lenWord == 1
 {
+	HideObject("Image")
 	return
 }
+ShowObject("BackLetter")
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
