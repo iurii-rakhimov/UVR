@@ -1,5 +1,11 @@
 // QuessWord(SelectWord).txt
 indexCell = GetIndexSelectCellTableView()
-Word = ^ArrayWord[indexCell]
-QuessWord.text = Word
+^Word = ^ArrayWord[indexCell]
 DoModule View
+DoModule CleaWord
+DoModule KeyboardHide
+
+^Word = ^ArrayWord[indexCell]
+DoModule ViewKeyboardLetter
+HideObject("Image")
+Title.text = "Набери слово"
