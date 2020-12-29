@@ -1,0 +1,172 @@
+// QuessWord(ViewKeyboardLetter).txt
+
+ArrayComponents = Components(^Word, "")
+countComponents = CountElementsOfArray(ArrayComponents)
+for i = 0 ; i < countComponents ;  i ++
+{
+	if ArrayComponents[i] == "А"
+	{
+		ShowObject("Let01")
+		continue
+	}
+	if ArrayComponents[i] == "Б"
+	{
+		ShowObject("Let02")
+		continue
+	}
+	if ArrayComponents[i] == "В"
+	{
+		ShowObject("Let03")
+		continue
+	}
+	if ArrayComponents[i] == "Г"
+	{
+		ShowObject("Let04")
+		continue
+	}
+	if ArrayComponents[i] == "Д"
+	{
+		ShowObject("Let05")
+		continue
+	}
+	if ArrayComponents[i] == "Е"
+	{
+		ShowObject("Let06")
+		continue
+	}
+	if ArrayComponents[i] == "Ё"
+	{
+		ShowObject("Let07")
+		continue
+	}
+	if ArrayComponents[i] == "Ж"
+	{
+		ShowObject("Let08")
+		continue
+	}
+	if ArrayComponents[i] == "З"
+	{
+		ShowObject("Let09")
+		continue
+	}
+	if ArrayComponents[i] == "И"
+	{
+		ShowObject("Let10")
+		continue
+	}
+	if ArrayComponents[i] == "Й"
+	{
+		ShowObject("Let11")
+		continue
+	}
+	if ArrayComponents[i] == "К"
+	{
+		ShowObject("Let12")
+		continue
+	}
+	if ArrayComponents[i] == "Л"
+	{
+		ShowObject("Let13")
+		continue
+	}
+	if ArrayComponents[i] == "М"
+	{
+		ShowObject("Let14")
+		continue
+	}
+	if ArrayComponents[i] == "Н"
+	{
+		ShowObject("Let15")
+		continue
+	}
+	if ArrayComponents[i] == "О"
+	{
+		ShowObject("Let16")
+		continue
+	}
+	if ArrayComponents[i] == "П"
+	{
+		ShowObject("Let17")
+		continue
+	}
+	if ArrayComponents[i] == "Р"
+	{
+		ShowObject("Let18")
+		continue
+	}
+	if ArrayComponents[i] == "С"
+	{
+		ShowObject("Let19")
+		continue
+	}
+	if ArrayComponents[i] == "Т"
+	{
+		ShowObject("Let20")
+		continue
+	}
+	if ArrayComponents[i] == "У"
+	{
+		ShowObject("Let21")
+		continue
+	}
+	if ArrayComponents[i] == "Ф"
+	{
+		ShowObject("Let22")
+		continue
+	}
+	if ArrayComponents[i] == "Х"
+	{
+		ShowObject("Let23")
+		continue
+	}
+	if ArrayComponents[i] == "Ц"
+	{
+		ShowObject("Let24")
+		continue
+	}
+	if ArrayComponents[i] == "Ч"
+	{
+		ShowObject("Let25")
+		continue
+	}
+	if ArrayComponents[i] == "Ш"
+	{
+		ShowObject("Let26")
+		continue
+	}
+	if ArrayComponents[i] == "Щ"
+	{
+		ShowObject("Let27")
+		continue
+	}
+	if ArrayComponents[i] == "Ъ"
+	{
+		ShowObject("Let28")
+		continue
+	}
+	if ArrayComponents[i] == "Ы"
+	{
+		ShowObject("Let29")
+		continue
+	}
+	if ArrayComponents[i] == "Ь"
+	{
+		ShowObject("Let30")
+		continue
+	}
+	if ArrayComponents[i] == "Э"
+	{
+		ShowObject("Let31")
+		continue
+	}
+	if ArrayComponents[i] == "Ю"
+	{
+		ShowObject("Let32")
+		continue
+	}
+	if ArrayComponents[i] == "Я"
+	{
+		ShowObject("Let33")
+		continue
+	}
+}
