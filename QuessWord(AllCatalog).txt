@@ -3,6 +3,8 @@ QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
 QuessWord(Edit).txt
+QuessWord(KeyboardShow).txt
+QuessWord(KeyboardView).txt
 QuessWord(Let01).txt
 QuessWord(Let02).txt
 QuessWord(Let03).txt
@@ -44,4 +46,5 @@ QuessWord(Save).txt
 QuessWord(SelectWord).txt
 QuessWord(Title).txt
 QuessWord(View).txt
+QuessWord(ViewKeyboardLetter).txt
 QuessWord(ViewLetter).txt
