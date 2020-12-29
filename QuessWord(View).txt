@@ -1,7 +1,12 @@
 // QuessWord(View).txt
 
-Word = QuessWord.text
-
+//Word = QuessWord.text
+Word = ^Word
+lenWord = LengthString(Word)
+if lenWord == 1
+{
+	return
+}
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
