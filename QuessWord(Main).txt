@@ -48,5 +48,6 @@ for Index = 0 ; Index < CountRecords ;  Index ++
 HideObject("Image")
 HideObject("Save")
 HideObject("Edit")
+HideObject("BackLetter")
 ShowObject("ListWordTable")
 ^KeyboardView = "Show"
