@@ -31,7 +31,6 @@ QuessWord	Let31	Label	@	240	173	39	39	Let31	Э	242:242:242	2:2:2	0	22	systemFont
 QuessWord	Let32	Label	@	280	173	39	39	Let32	Ю	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let27	Label	@	80	173	39	39	Let27	Щ	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let33	Label	@	0	212	39	39	Let33	Я	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
-QuessWord	List	Label	@	100	219	150	30	List	Список слов	79:100:160	255:255:255	15	22	systemFont	center	Label		vertically		
 QuessWord	Title	Label	@	22	20	235	25	Title	Собери слово	242:242:242	2:2:2	0	15	systemFont	center	Label		vertically		
 QuessWord	Image	Image	@	0	320	320	245	ImportImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	CleaAll	Image	@	270	217	40	40	CleaAll	255:255:255	242:242:242	0	Clea40x40		vertically	
@@ -39,3 +38,5 @@ QuessWord	QuessWord	Label	@	0	270	320	40	QuessWord	текст	242:242:242	2:2:2	
 QuessWord	BackLetter	Image	@	50	215	35	35	BackLetter	255:255:255	242:242:242	0	BackLatter40x40		vertically	
 QuessWord	Save	Image	@	256	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
 QuessWord	Edit	Image	@	270	20	26	26	Edit	255:255:255	242:242:242	0	Edit40x40		vertically	
+QuessWord	List	Image	@	110	215	50	50	List	255:255:255	242:242:242	0	ListForm40x40		vertically	
+QuessWord	KeyboardView	Image	@	180	220	60	40	KeyboardView	255:255:255	242:242:242	0	Keyboard72x72		vertically	
