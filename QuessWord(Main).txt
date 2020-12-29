@@ -49,3 +49,4 @@ HideObject("Image")
 HideObject("Save")
 HideObject("Edit")
 ShowObject("ListWordTable")
+^KeyboardView = "Show"
