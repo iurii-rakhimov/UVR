@@ -1,3 +1,14 @@
 // QuessWord(Start).txt
 ^Word = ""
 QuessWord.text = ""
+for i = 1 ; i < 34 ;  i ++
+{
+	if i < 10
+	{
+		HideObject("Let0"+i)
+	}
+	else
+	{
+		HideObject("Let"+i)
+	}
+}
