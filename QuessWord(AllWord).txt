@@ -9,8 +9,11 @@
 БЫК https://proprikol.ru/wp-content/uploads/2020/04/kartinki-byka-9.jpg
 ВОЗ https://obyava.ua/img/classified/0/133/6154/x5dt1d4mleth7xbs.jpg
 ВОЛ https://c.pxhere.com/photos/40/78/india_ox_karre_rajasthan_swot_up-595591.jpg!d
-ДЕД
-БАБА
+ДЕД https://static.wixstatic.com/media/6790e2_9f316204acd14be2bac0ef07a34826cd~mv2.jpeg
+БАБА https://static.wixstatic.com/media/6790e2_ef8688425adc4c419e24c35c3b8a8a4f~mv2.png
+БРАТ https://static.wixstatic.com/media/6790e2_25e0acb079d146fcbcf7c40c3517f1a2~mv2.png
+СЕСТРА https://static.wixstatic.com/media/6790e2_2225cc129d3c45e7b9b212e3756f3e40~mv2.jpg
+ПАПА https://static.wixstatic.com/media/6790e2_0825ccddfaf442a1b2a5d66e0d657fcb~mv2.jpg
 ДОГ https://sobakevi4.ru/wp-content/uploads/2020/08/nemeckij-dog-priljog-otdohnut.jpg
 ДОМ https://pix-feed.com/wp-content/uploads/2018/09/15498829942_cpn.jpg
 ДУБ https://img.fonwall.ru/o/9s/derevo-dub-angel-charlston-yuzhnaya-karolina-peyzazh.jpg
@@ -27,10 +30,10 @@
 ЗУБ https://img2.freepng.ru/20180816/wwv/kisspng-human-tooth-maxillary-first-molar-tooth-decay-5b75a47ea23ed3.9170050515344364786646.jpg
 ДВА https://img.go-homework.com/img/algebra/what-are-two-numbers-with-a-sum-of-35-and-a-difference-of-7.jpg
 ДУШ https://i0.wp.com/missis-x.com/wp-content/uploads/2017/01/1452012563-7725-5950.jpeg
-ДЫМ https://images.pexels.com/photos/266519/pexels-photo-266519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+ДЫМ https://images.pexels.com/photos/266519/pexels-photo-266519.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260
 КОЛ https://cdn.fishki.net/upload/post/2016/11/08/2129780/9591386xoh.jpg
 КУБ https://art-bogema.ru/wp-content/uploads/2019/12/bai076211.jpg
-ЛАК https://i0.wp.com/bestlifeonline.com/wp-content/uploads/2018/07/nail-polish.jpg?resize=1024%2C682&ssl=1
+ЛАК https://i0.wp.com/bestlifeonline.com/wp-content/uploads/2018/07/nail-polish.jpg?resize=1024%2C682&amp;ssl=1
 ЛЁД https://static.tildacdn.com/tild3632-6365-4331-b537-356236353039/914dfb33d473b66fa449.jpg
 ЛЕС https://molva33.ru/wp-content/uploads/2016/02/Les.jpg
 ЛУЧ https://avatars.mds.yandex.net/get-zen_doc/1856484/pub_5ddd42df64338f5cf6ef274a_5ddd45f6f30b6a4cdd4561b7/scale_1200
