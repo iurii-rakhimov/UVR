@@ -1,0 +1,16 @@
+// QuessWord(BackLetter).txt
+Word = QuessWord.text
+lenWord = LengthString(Word)
+lenWord = lenWord - 2
+if lenWord < 0
+{
+	QuessWord.text = ""
+	HideObject("BackLetter")
+}
+else
+{
+	Word = SubString(Word, 0, lenWord)
+	QuessWord.text = Word
+}
+^Word = Word
+DoModule View 
