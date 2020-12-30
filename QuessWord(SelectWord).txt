@@ -9,3 +9,25 @@ DoModule KeyboardHide
 DoModule ViewKeyboardLetter
 HideObject("Image")
 Title.text = "Набери слово"
+
+Word = ^Word
+SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
+NameImage = "Image_NO"
+if SelectedIndex != -1
+{
+	if ^ArrayImage[SelectedIndex] == ""
+	{
+		if ^ArrayWord[SelectedIndex] == Word
+		{
+			NameImage = "Ok320x240"
+		}
+	}
+	else
+	{
+		if ^ArrayWord[SelectedIndex] == Word
+		{
+			NameImage = ^ArrayImage[SelectedIndex]
+		}
+	}
+}
+MiniImage.File = NameImage
