@@ -1,0 +1,4 @@
+// QuessWord(MiniImage).txt
+
+QuessWord.text = ^Word
+DoModule View
