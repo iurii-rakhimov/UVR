@@ -40,6 +40,7 @@ QuessWord(Let32).txt
 QuessWord(Let33).txt
 QuessWord(List).txt
 QuessWord(Main).txt
+QuessWord(MiniImage).txt
 QuessWord(NoSaveFile).txt
 QuessWord(ObjectBuild).txt
 QuessWord(Save).txt
