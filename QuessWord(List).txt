@@ -1,5 +1,6 @@
 // QuessWord(List).txt
 
+
 DoModule CleaWord
 HideObject("Image")
 HideObject("Save")
@@ -19,8 +20,11 @@ if strSystemEvent != ""
 //		print "nameImageFile =" + nameImageFile
 		SelectedIndex = GetIndexArrayWithText(^ArrayImage, nameImageFile)
 //		print "SelectedIndex =" + SelectedIndex
-		^ArrayImage[SelectedIndex] = nameImageFile
-		Title.text = "Запиши изменения ->"
-		ShowObject("Save")
+		if SelectedIndex != -1
+		{
+			^ArrayImage[SelectedIndex] = nameImageFile
+			Title.text = "Запиши изменения ->"
+			ShowObject("Save")
+		}
 	}
 }
