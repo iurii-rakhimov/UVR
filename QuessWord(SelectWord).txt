@@ -3,12 +3,14 @@ indexCell = GetIndexSelectCellTableView()
 ^Word = ^ArrayWord[indexCell]
 DoModule View
 DoModule CleaWord
-DoModule KeyboardHide
+DoModule KeyboardView
+
 
 ^Word = ^ArrayWord[indexCell]
 DoModule ViewKeyboardLetter
 HideObject("Image")
 Title.text = "Набери слово"
+
 
 Word = ^Word
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
