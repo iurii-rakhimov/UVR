@@ -1,4 +1,5 @@
 QuessWord(AllWord).txt
+QuessWord(AddWord).txt
 QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
