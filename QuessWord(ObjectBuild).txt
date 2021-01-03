@@ -35,9 +35,11 @@ QuessWord	Title	Label	@	22	20	235	25	Title	Собери слово	242:242:242	2
 QuessWord	Image	Image	@	0	320	320	245	ImportImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	CleaAll	Image	@	270	217	40	40	CleaAll	255:255:255	242:242:242	0	Clea40x40		vertically	
 QuessWord	QuessWord	Label	@	0	271	245	40	QuessWord	текст	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
-QuessWord	BackLetter	Image	@	50	215	35	35	BackLetter	255:255:255	242:242:242	0	BackLatter40x40		vertically	
+QuessWord	BackLetter	Image	@	90	215	35	35	BackLetter	255:255:255	242:242:242	0	BackLatter40x40		vertically	
 QuessWord	Save	Image	@	256	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
 QuessWord	Edit	Image	@	270	20	26	26	Edit	255:255:255	242:242:242	0	Edit40x40		vertically	
-QuessWord	List	Image	@	110	215	50	50	List	255:255:255	242:242:242	0	ListForm40x40		vertically	
-QuessWord	KeyboardView	Image	@	180	220	60	40	KeyboardView	255:255:255	242:242:242	0	Keyboard72x72		vertically	
+QuessWord	List	Image	@	140	215	50	50	List	255:255:255	242:242:242	0	ListForm40x40		vertically	
+QuessWord	KeyboardView	Image	@	200	220	60	40	KeyboardView	255:255:255	242:242:242	0	Keyboard72x72		vertically	
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
+QuessWord	SpaceBar	Image	@	40	215	40	40	SpaceBar	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
+QuessWord	AddWord	Image	@	261	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
