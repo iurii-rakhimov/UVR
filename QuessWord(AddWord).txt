@@ -1,0 +1,4 @@
+// QuessWord(AddWord).txt
+
+nameListFile = "AllWord"
+edit nameListFile
