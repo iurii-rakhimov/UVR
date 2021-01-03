@@ -43,6 +43,7 @@ QuessWord(Main).txt
 QuessWord(MiniImage).txt
 QuessWord(NoSaveFile).txt
 QuessWord(ObjectBuild).txt
+QuessWord(QuessWord).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
 QuessWord(SpaceBar).txt
