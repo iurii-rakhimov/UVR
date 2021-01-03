@@ -1,6 +1,5 @@
 // QuessWord(List).txt
 
-
 DoModule CleaWord
 HideObject("Image")
 HideObject("Save")
