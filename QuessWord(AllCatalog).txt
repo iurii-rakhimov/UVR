@@ -45,6 +45,7 @@ QuessWord(NoSaveFile).txt
 QuessWord(ObjectBuild).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
+QuessWord(SpaceBar).txt
 QuessWord(Title).txt
 QuessWord(View).txt
 QuessWord(ViewKeyboardLetter).txt
