@@ -1,0 +1,2 @@
+// QuessWord(QuessWord).txt
+ShowObject("Add")
