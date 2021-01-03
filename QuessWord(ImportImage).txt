@@ -1,0 +1,5 @@
+// QuessWord(ImportImage).txt
+
+countPhoto = GetCountPhoto()
+print "countPhoto" + countPhoto
+// imagePhoto = GetPhoto(6)
