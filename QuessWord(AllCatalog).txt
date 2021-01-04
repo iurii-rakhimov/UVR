@@ -5,7 +5,7 @@ QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
 QuessWord(Edit).txt
-QuessWord(ImportImage).txt
+QuessWord(Image).txt
 QuessWord(KeyboardShow).txt
 QuessWord(KeyboardView).txt
 QuessWord(Let01).txt
