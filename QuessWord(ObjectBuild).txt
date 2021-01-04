@@ -44,5 +44,4 @@ QuessWord	KeyboardView	Image	@	200	220	60	40	KeyboardView	255:255:255	242:242:24
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	SpaceLetter	Image	@	40	215	40	40	SpaceLetter	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
 QuessWord	AddWord	Image	@	220	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
-QuessWord	AddPhoto	Image	@	220	20	26	26	AddPhoto	242:242:242	242:242:242	0	Attach40x40		vertically	
 QuessWord	ListBarPhoto	Image	@	270	20	26	26	ListBarPhoto	242:242:242	242:242:242	0	ListLocalTime40x40		vertically	
