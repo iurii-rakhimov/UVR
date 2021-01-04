@@ -1,4 +1,5 @@
 QuessWord	Let01	Label	@	0	53	39	39	Let01	А	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessWord	Title	Label	@	22	20	200	25	Title	Собери слово	242:242:242	2:2:2	0	12	systemFont	center	Label		vertically		
 QuessWord	Let02	Label	@	40	53	39	39	Let02	Б	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let03	Label	@	80	53	39	39	Let03	В	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let04	Label	@	120	53	39	39	Let04	Г	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
@@ -31,8 +32,8 @@ QuessWord	Let31	Label	@	240	173	39	39	Let31	Э	242:242:242	2:2:2	0	22	systemFont
 QuessWord	Let32	Label	@	280	173	39	39	Let32	Ю	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let27	Label	@	80	173	39	39	Let27	Щ	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let33	Label	@	0	212	39	39	Let33	Я	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
-QuessWord	Title	Label	@	22	20	235	25	Title	Собери слово	242:242:242	2:2:2	0	15	systemFont	center	Label		vertically		
-QuessWord	Image	Image	@	0	320	320	245	ImportImage	242:242:242	242:242:242	0	Q980		vertically	
+QuessWord	ListPhoto	Image	@	0	320	320	245	ListPhoto	242:242:242	242:242:242	0	ListPhoto980x980		vertically	
+QuessWord	Image	Image	@	0	320	320	245	Image	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	CleaAll	Image	@	270	217	40	40	CleaAll	255:255:255	242:242:242	0	Clea40x40		vertically	
 QuessWord	QuessWord	Label	@	0	271	245	40	QuessWord	текст	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	BackLetter	Image	@	90	215	35	35	BackLetter	255:255:255	242:242:242	0	BackLatter40x40		vertically	
@@ -42,5 +43,6 @@ QuessWord	List	Image	@	140	215	50	50	List	255:255:255	242:242:242	0	ListForm40x4
 QuessWord	KeyboardView	Image	@	200	220	60	40	KeyboardView	255:255:255	242:242:242	0	Keyboard72x72		vertically	
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	SpaceLetter	Image	@	40	215	40	40	SpaceLetter	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
-QuessWord	AddWord	Image	@	261	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
+QuessWord	AddWord	Image	@	220	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
 QuessWord	AddPhoto	Image	@	220	20	26	26	AddPhoto	242:242:242	242:242:242	0	Attach40x40		vertically	
+QuessWord	ListBarPhoto	Image	@	270	20	26	26	ListBarPhoto	242:242:242	242:242:242	0	ListLocalTime40x40		vertically	
