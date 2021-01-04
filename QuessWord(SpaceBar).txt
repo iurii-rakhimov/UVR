@@ -1,4 +1,0 @@
-// QuessWord(SpaceBar).txt
-
-^Letter = " "
-DoModule ViewLetter
