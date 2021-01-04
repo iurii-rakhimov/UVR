@@ -8,7 +8,7 @@ if lenWord == 1
 	return
 }
 ShowObject("BackLetter")
-ShowObject("SpaceBar")
+ShowObject("SpaceLetter")
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
