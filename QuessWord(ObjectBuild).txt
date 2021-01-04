@@ -1,5 +1,5 @@
 QuessWord	Let01	Label	@	0	53	39	39	Let01	А	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
-QuessWord	Title	Label	@	22	20	200	25	Title	Собери слово	242:242:242	2:2:2	0	12	systemFont	center	Label		vertically		
+QuessWord	Title	Label	@	22	20	190	25	Title	Собери слово	242:242:242	2:2:2	0	12	systemFont	center	Label		vertically		
 QuessWord	Let02	Label	@	40	53	39	39	Let02	Б	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let03	Label	@	80	53	39	39	Let03	В	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let04	Label	@	120	53	39	39	Let04	Г	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
