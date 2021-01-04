@@ -1,0 +1,14 @@
+QuessPhoto	Img01	Image	@	2	53	157	157	Img01	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	Img02	Image	@	162	53	157	157	Img02	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	Title	Label	@	20	20	280	30		Title	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	Img03	Image	@	2	213	157	157	Img03	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	Img04	Image	@	162	213	157	157	Img04	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	Img05	Image	@	2	375	157	157	Img05	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	Img06	Image	@	162	375	157	157	Img06	242:242:242	242:242:242	0	Image_No		vertically	
+QuessPhoto	LineVertically0	Label	@	0	51	2	483			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineVertically1	Label	@	160	51	2	483			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineVertically2	Label	@	318	51	2	483			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineHorizontally0	Label	@	0	51	320	2			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineHorizontally1	Label	@	0	211	320	2			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineHorizontally2	Label	@	0	372	320	2			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
+QuessPhoto	LineHorizontally3	Label	@	0	534	320	2			0:0:0	2:2:2	0	22	systemFont	center	Label		vertically		
