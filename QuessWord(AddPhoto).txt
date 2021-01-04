@@ -1,0 +1,3 @@
+// QuessWord(AddPhoto).txt
+
+Image.File = GetPhoto(6)
