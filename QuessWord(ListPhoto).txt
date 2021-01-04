@@ -1,0 +1,1 @@
+// QuessWord(ListPhoto).txt
