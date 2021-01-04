@@ -1,6 +1,6 @@
 // QuessWord(Main).txt
 
-MessageBarUp("Загружаем слова !!!")
+MessageBarUp("Ждите !!!")
 wait 200
 
 DoModule CleaWord
