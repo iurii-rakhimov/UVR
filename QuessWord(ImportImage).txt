@@ -1,5 +1,4 @@
 // QuessWord(ImportImage).txt
 
-countPhoto = GetCountPhoto()
-print "countPhoto" + countPhoto
-// imagePhoto = GetPhoto(6)
+^CountPhoto = GetCountPhoto()
+print "^CountPhoto=" + ^CountPhoto
