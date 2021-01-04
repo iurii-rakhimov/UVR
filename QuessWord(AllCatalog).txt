@@ -1,7 +1,8 @@
 QuessWord(AllWord).txt
-QuessWord(ObjectBuild).txt
 QuessPhoto(ObjectBuild).txt
 QuessPhoto(Main).txt
+QuessPhoto(Appear).txt
+QuessWord(ObjectBuild).txt
 QuessWord(AddPhoto).txt
 QuessWord(AddWord).txt
 QuessWord(BackLetter).txt
