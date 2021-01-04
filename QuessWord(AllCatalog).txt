@@ -41,7 +41,8 @@ QuessWord(Let30).txt
 QuessWord(Let31).txt
 QuessWord(Let32).txt
 QuessWord(Let33).txt
-QuessWord(List).txt
+QuessWord(ListPhoto).txt
+QuessWord(ListBarPhoto).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
 QuessWord(NoSaveFile).txt
