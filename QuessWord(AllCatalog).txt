@@ -1,4 +1,6 @@
 QuessWord(AllWord).txt
+QuessWord(ObjectBuild).txt
+QuessPhoto(ObjectBuild).txt
 QuessWord(AddPhoto).txt
 QuessWord(AddWord).txt
 QuessWord(BackLetter).txt
@@ -46,7 +48,6 @@ QuessWord(ListBarPhoto).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
 QuessWord(NoSaveFile).txt
-QuessWord(ObjectBuild).txt
 QuessWord(QuessWord).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
