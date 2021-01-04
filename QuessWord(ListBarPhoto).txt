@@ -1,5 +1,5 @@
 // QuessWord(ListBarPhoto).txt
 
 ^CountPhoto = GetCountPhoto()
-Hide("Image")
-Show("ListPhoto")
+HideObject("Image")
+ShowObject("ListPhoto")
