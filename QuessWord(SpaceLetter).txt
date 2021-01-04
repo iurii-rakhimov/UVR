@@ -1,0 +1,4 @@
+// QuessWord(SpaceLetter).txt
+
+^Letter = " "
+DoModule ViewLetter
