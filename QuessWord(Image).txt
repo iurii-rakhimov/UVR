@@ -1,0 +1,4 @@
+// QuessWord(Image).txt
+
+Hide("Image")
+Show("ListPhoto")
