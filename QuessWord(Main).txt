@@ -1,7 +1,7 @@
 // QuessWord(Main).txt
 
-MessageBarUp("Минутку !!!")
-wait 500
+MessageBarUp("Загружаем слова !!!")
+wait 200
 
 DoModule CleaWord
 
@@ -52,7 +52,7 @@ HideObject("Save")
 HideObject("Edit")
 //HideObject("AddWord")
 HideObject("BackLetter")
-HideObject("SpaceBar")
+HideObject("SpaceLetter")
 
 ShowObject("ListWordTable")
 ^KeyboardView = "Show"
