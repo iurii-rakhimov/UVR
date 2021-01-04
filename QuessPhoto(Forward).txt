@@ -1,0 +1,37 @@
+// QuessPhoto(Forward).txt
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img01.File = GetPhoto(^NomerFoto)
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img02.File = GetPhoto(^NomerFoto)
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img03.File = GetPhoto(^NomerFoto)
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img04.File = GetPhoto(^NomerFoto)
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img05.File = GetPhoto(^NomerFoto)
+if ^NomerFoto > ^CountPhoto
+{
+	return
+}
+^NomerFoto = ^NomerFoto + 1
+Img06.File = GetPhoto(^NomerFoto)
