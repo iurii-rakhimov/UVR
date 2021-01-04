@@ -1,0 +1,9 @@
+// QuessPhoto(Main).txt
+
+Title.text = “”
+Img01.File = GetPhoto(1)
+Img02.File = GetPhoto(2)
+Img03.File = GetPhoto(3)
+Img04.File = GetPhoto(4)
+Img05.File = GetPhoto(5)
+Img06.File = GetPhoto(6)
