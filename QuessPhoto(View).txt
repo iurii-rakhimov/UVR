@@ -1,16 +1,16 @@
 // QuessPhoto(View).txt
 
+numberEndPhoto = ^NomerFoto
+numberBeginPhoto = numberEndPhoto - 6
+GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
+
+wait 500, message=""
+
 Img01.File = ViewPhotoInBuffer(0)
 Img02.File = ViewPhotoInBuffer(1)
 Img03.File = ViewPhotoInBuffer(2)
 Img04.File = ViewPhotoInBuffer(3)
 Img05.File = ViewPhotoInBuffer(4)
 Img06.File = ViewPhotoInBuffer(5)
-
-numberEndPhoto = ^NomerFoto
-numberBeginPhoto = numberEndPhoto - 6
-GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
-
-wait 500, message=""
 
 Title.text = "Фото " + numberBeginPhoto + " ... " + numberEndPhoto
