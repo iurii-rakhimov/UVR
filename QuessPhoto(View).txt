@@ -11,6 +11,6 @@ numberEndPhoto = ^NomerFoto
 numberBeginPhoto = numberEndPhoto - 6
 GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
 
-wait 5, message=""
+wait 500, message=""
 
 Title.text = "Фото " + numberBeginPhoto + " ... " + numberEndPhoto
