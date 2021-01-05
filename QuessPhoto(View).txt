@@ -9,6 +9,7 @@ Img06.File = ViewPhotoInBuffer(5)
 
 numberEndPhoto = ^NomerFoto
 numberBeginPhoto = numberEndPhoto - 6
+GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
 
 wait 5, message=""
 
