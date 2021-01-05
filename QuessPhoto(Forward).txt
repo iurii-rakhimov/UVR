@@ -1,5 +1,7 @@
 // QuessPhoto(Forward).txt
-DoModule View
 numberBeginPhoto = ^NomerFoto
 numberEndPhoto = numberBeginPhoto + 6
+^NomerFoto = numberEndPhoto
 GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
+wait 300, message="Загрузим"
+DoModule View
