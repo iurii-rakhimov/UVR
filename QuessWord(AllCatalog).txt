@@ -4,6 +4,7 @@ QuessPhoto(Main).txt
 QuessPhoto(Appear).txt
 QuessPhoto(Back).txt
 QuessPhoto(Forward).txt
+QuessPhoto(View).txt
 QuessWord(ObjectBuild).txt
 QuessWord(AddPhoto).txt
 QuessWord(AddWord).txt
