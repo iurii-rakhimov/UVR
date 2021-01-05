@@ -7,7 +7,7 @@ Img04.File = ViewPhotoInBuffer(3)
 Img05.File = ViewPhotoInBuffer(4)
 Img06.File = ViewPhotoInBuffer(5)
 
-numberBeginPhoto = ^NomerFoto
-numberEndPhoto = numberBeginPhoto + 6
+numberEndPhoto = ^NomerFoto
+numberBeginPhoto = numberEndPhoto - 6
 
 Title.text = "Фото " + numberBeginPhoto + " ... " + numberEndPhoto
