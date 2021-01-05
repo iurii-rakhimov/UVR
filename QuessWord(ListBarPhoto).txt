@@ -1,4 +1,4 @@
 // QuessWord(ListBarPhoto).txt
 
-^CountPhoto = GetCountPhoto()
+^CountPhoto = GetCountPhotos()
 DoForm QuessPhoto
