@@ -1,37 +1,6 @@
-// QuessPhoto(Back).txt
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img01.File = GetPhoto(^NomerFoto)
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img02.File = GetPhoto(^NomerFoto)
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img03.File = GetPhoto(^NomerFoto)
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img04.File = GetPhoto(^NomerFoto)
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img05.File = GetPhoto(^NomerFoto)
-if ^NomerFoto < 1
-{
-	return
-}
-^NomerFoto = ^NomerFoto - 1
-Img06.File = GetPhoto(^NomerFoto)
+// QuessPhoto(Forward).txt
+DoModule View
+numberEndPhoto = ^NomerFoto
+numberBeginPhoto = numberEndPhoto - 6
+^NomerFoto = numberBeginPhoto
+GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
