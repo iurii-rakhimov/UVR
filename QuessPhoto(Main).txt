@@ -1,5 +1,5 @@
 // QuessPhoto(Main).txt
 
 Title.text = “”
-DoModule View
 ^NomerFoto = 5
+DoModule View
