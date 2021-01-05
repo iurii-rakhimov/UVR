@@ -10,4 +10,6 @@ Img06.File = ViewPhotoInBuffer(5)
 numberEndPhoto = ^NomerFoto
 numberBeginPhoto = numberEndPhoto - 6
 
+wait 5, message=""
+
 Title.text = "Фото " + numberBeginPhoto + " ... " + numberEndPhoto
