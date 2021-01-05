@@ -2,4 +2,4 @@
 
 ^CountPhoto = GetCountPhotos()
 DoForm QuessPhoto
-wait 10, message="Загрузим"
+wait 300, message="Загрузим"
