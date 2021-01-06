@@ -1,1 +1,4 @@
-QuessViewPhoto	ImagePhoto	Image	@	0	51	320	517	ImagePhoto	242:242:242	242:242:242	0	Help100x100	Image	vertically	
+QuessViewPhoto	ImagePhoto	Image	@	0	50	320	518	ImagePhoto	242:242:242	242:242:242	0	Help100x100		vertically	
+QuessViewPhoto	NameImage	TextField	@	130	20	100	26				242:242:242	2:2:2	0	22	systemFont		vertically	vertically		
+QuessViewPhoto	Save	Image	@	250	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
+QuessViewPhoto	LabelNameImage	Label	@	40	20	80	26		Имя файла	242:242:242	2:2:2	0	15	systemFont	center	Label		vertically		
