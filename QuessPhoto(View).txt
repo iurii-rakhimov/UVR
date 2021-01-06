@@ -1,6 +1,6 @@
 // QuessPhoto(View).txt
 
-countGetPhoto = GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
+countInBuferPhoto = GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
 Print "countInBuferPhoto =" + countInBuferPhoto
 wait 700, message=""
 
