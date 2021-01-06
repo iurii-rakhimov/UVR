@@ -5,6 +5,9 @@ QuessPhoto(Appear).txt
 QuessPhoto(Back).txt
 QuessPhoto(Forward).txt
 QuessPhoto(View).txt
+QuessViewPhoto(ObjectBuild).txt
+QuessViewPhoto(Main).txt
+QuessViewPhoto(Appear).txt
 QuessWord(ObjectBuild).txt
 QuessWord(AddPhoto).txt
 QuessWord(AddWord).txt
@@ -13,6 +16,7 @@ QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
 QuessWord(Edit).txt
 QuessWord(Image).txt
+QuessPhoto(Img01).txt
 QuessWord(KeyboardShow).txt
 QuessWord(KeyboardView).txt
 QuessWord(Let01).txt
