@@ -1,8 +1,6 @@
 // QuessPhoto(View).txt
 
-numberEndPhoto = ^NomerFoto
-numberBeginPhoto = numberEndPhoto - 6
-GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
+GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
 
 wait 500, message=""
 
@@ -13,4 +11,4 @@ Img04.File = ViewPhotoInBuffer(3)
 Img05.File = ViewPhotoInBuffer(4)
 Img06.File = ViewPhotoInBuffer(5)
 
-Title.text = "Фото " + numberBeginPhoto + " ... " + numberEndPhoto
+Title.text = "Фото " + ^NomerBeginFoto + " ... " + ^NomerEndFoto
