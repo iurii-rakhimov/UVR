@@ -5,5 +5,5 @@ GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
 
 wait 500, message="Загрузим"
 countInBuferPhoto  = GetCountImageBuffer()
-Print "countInBuferPhoto=" + countInBuferPhoto
+//Print "countInBuferPhoto=" + countInBuferPhoto
 DoModule View
