@@ -1,0 +1,3 @@
+// QuessPhoto(Img06).txt
+^NomerPhoto = 6
+DoForm QuessViewPhoto
