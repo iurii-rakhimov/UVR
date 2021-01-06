@@ -1,13 +1,10 @@
 // QuessPhoto(Forward).txt
-numberEndPhoto = ^NomerFoto
-numberBeginPhoto = numberEndPhoto - 6
-if numberBeginPhoto < 0
+numberBeginPhoto = ^NomerBeginFoto - 6
+if numberBeginPhoto >= 0
 {
-	numberBeginPhoto = 0
-	numberEndPhoto = 5
-	^NomerFoto = 6
+	^NomerEndFoto = ^NomerEndFoto - 6
+	^NomerBeginFoto = numberBeginPhoto
 }
-^NomerFoto = numberBeginPhoto
 GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
 wait 500, message="Загрузим"
 DoModule View
