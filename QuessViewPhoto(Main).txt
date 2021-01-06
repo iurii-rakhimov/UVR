@@ -1,3 +1,3 @@
 // QuessViewPhoto(Main).txt
-
-ImagePhoto.File = ViewPhotoInBuffer(^NomerPhoto)
+NomerView = ^NomerPhoto - 1
+ImagePhoto.File = ViewPhotoInBuffer(NomerView)
