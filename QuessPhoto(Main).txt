@@ -1,5 +1,6 @@
 // QuessPhoto(Main).txt
 
 Title.text = “”
-^NomerFoto = 6
+^NomerBeginFoto = 0
+^NomerEndFoto = 5
 DoModule View
