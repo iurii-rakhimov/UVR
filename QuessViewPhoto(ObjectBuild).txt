@@ -1,0 +1,1 @@
+QuessViewPhoto	ImagePhoto	Image	@	0	51	320	517	ImagePhoto	242:242:242	242:242:242	0	Help100x100	Image	vertically	
