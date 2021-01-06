@@ -5,6 +5,6 @@ if numberBeginPhoto >= 0
 	^NomerEndFoto = ^NomerEndFoto - 6
 	^NomerBeginFoto = numberBeginPhoto
 }
-GetInBuferPhoto(numberBeginPhoto, numberEndPhoto)
+GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
 wait 500, message="Загрузим"
 DoModule View
