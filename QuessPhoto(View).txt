@@ -1,8 +1,10 @@
 // QuessPhoto(View).txt
 
-countInBuferPhoto = GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
-Print "countInBuferPhoto =" + countInBuferPhoto
+GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
+
 wait 700, message=""
+countInBuferPhoto  = GetCountImageBuffer()
+Print "countInBuferPhoto=" + countInBuferPhoto
 
 Img01.File = ViewPhotoInBuffer(0)
 Img02.File = ViewPhotoInBuffer(1)
