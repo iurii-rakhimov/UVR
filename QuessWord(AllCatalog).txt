@@ -17,6 +17,11 @@ QuessWord(CleaWord).txt
 QuessWord(Edit).txt
 QuessWord(Image).txt
 QuessPhoto(Img01).txt
+QuessPhoto(Img02).txt
+QuessPhoto(Img03).txt
+QuessPhoto(Img04).txt
+QuessPhoto(Img05).txt
+QuessPhoto(Img06).txt
 QuessWord(KeyboardShow).txt
 QuessWord(KeyboardView).txt
 QuessWord(Let01).txt
