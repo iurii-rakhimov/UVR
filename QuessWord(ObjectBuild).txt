@@ -1,5 +1,5 @@
+QuessWord	Title	Label	@	22	20	185	25	Title	Собери слово	242:242:242	2:2:2	0	12	systemFont	center	Label		vertically		
 QuessWord	Let01	Label	@	0	53	39	39	Let01	А	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
-QuessWord	Title	Label	@	22	20	190	25	Title	Собери слово	242:242:242	2:2:2	0	12	systemFont	center	Label		vertically		
 QuessWord	Let02	Label	@	40	53	39	39	Let02	Б	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let03	Label	@	80	53	39	39	Let03	В	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let04	Label	@	120	53	39	39	Let04	Г	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
@@ -37,11 +37,9 @@ QuessWord	Image	Image	@	0	320	320	245	Image	242:242:242	242:242:242	0	Q980		vert
 QuessWord	CleaAll	Image	@	270	217	40	40	CleaAll	255:255:255	242:242:242	0	Clea40x40		vertically	
 QuessWord	QuessWord	Label	@	0	271	245	40	QuessWord	текст	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	BackLetter	Image	@	90	215	35	35	BackLetter	255:255:255	242:242:242	0	BackLatter40x40		vertically	
-QuessWord	Save	Image	@	256	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
-QuessWord	Edit	Image	@	256	20	26	26	Edit	255:255:255	242:242:242	0	Edit40x40		vertically	
 QuessWord	List	Image	@	140	215	50	50	List	255:255:255	242:242:242	0	ListForm40x40		vertically	
 QuessWord	KeyboardView	Image	@	200	220	60	40	KeyboardView	255:255:255	242:242:242	0	Keyboard72x72		vertically	
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	SpaceLetter	Image	@	40	215	40	40	SpaceLetter	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
-QuessWord	AddWord	Image	@	220	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
+QuessWord	AddWord	Image	@	210	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
 QuessWord	ListBarPhoto	Image	@	256	20	26	26	ListBarPhoto	242:242:242	242:242:242	0	Camera40x40		vertically	
