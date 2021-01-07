@@ -48,7 +48,6 @@ for Index = 0 ; Index < CountRecords ;  Index ++
 }
 HideObject("Image")
 HideObject("MiniImage")
-HideObject("Edit")
 HideObject("BackLetter")
 HideObject("SpaceLetter")
 
