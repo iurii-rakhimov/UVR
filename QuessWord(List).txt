@@ -2,6 +2,5 @@
 
 DoModule CleaWord
 HideObject("Image")
-HideObject("Edit")
 ShowObject("ListWordTable")
 Title.text = ""
