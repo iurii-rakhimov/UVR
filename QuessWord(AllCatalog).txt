@@ -15,7 +15,6 @@ QuessWord(AddWord).txt
 QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
-QuessWord(Edit).txt
 QuessWord(Image).txt
 QuessPhoto(Img01).txt
 QuessPhoto(Img02).txt
