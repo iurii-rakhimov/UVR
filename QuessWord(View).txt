@@ -34,7 +34,6 @@ if SelectedIndex != -1
 	}
 }
 Image.File = NameImage
-//MiniImage.File = NameImage
 HideObject("ListWordTable")
 if NameImage == "Ok320x240"
 {
