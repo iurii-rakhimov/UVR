@@ -36,11 +36,9 @@ if SelectedIndex != -1
 Image.File = NameImage
 //MiniImage.File = NameImage
 HideObject("ListWordTable")
-HideObject("Save")
 if NameImage == "Ok320x240"
 {
 	Title.text = "Нет изображения, записать->"
-	ShowObject("Edit")
 }
 else
 {
