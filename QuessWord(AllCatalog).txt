@@ -64,7 +64,6 @@ QuessWord(Main).txt
 QuessWord(MiniImage).txt
 QuessWord(NoSaveFile).txt
 QuessWord(QuessWord).txt
-QuessWord(Save).txt
 QuessWord(SelectWord).txt
 QuessWord(SpaceLetter).txt
 QuessWord(Title).txt
