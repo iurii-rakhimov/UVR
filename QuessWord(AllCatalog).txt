@@ -1,4 +1,7 @@
-QuessWord(AllWord).txt
+QuessWord(AllWord0).txt
+QuessWord(AllWord1).txt
+QuessWord(AllWord2).txt
+QuessWord(AllWord3).txt
 QuessPhoto(ObjectBuild).txt
 QuessPhoto(Main).txt
 QuessPhoto(Appear).txt
@@ -60,6 +63,7 @@ QuessWord(Let33).txt
 QuessWord(LevelDown).txt
 QuessWord(LevelUp).txt
 QuessWord(Level).txt
+QuessWord(LoadLevel).txt
 QuessWord(List).txt
 QuessWord(ListPhoto).txt
 QuessWord(ListBarPhoto).txt
