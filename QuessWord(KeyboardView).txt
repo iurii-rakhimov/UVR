@@ -1,31 +1,20 @@
 // QuessWord(KeyboardView).txt
-if ^KeyboardView == "Show"
+
+if ^KeyboardView == "Hide"
 {
 	for i = 1 ; i < 34 ;  i ++
 	{
-		if i < 10
-		{
-			HideObject("Let0"+i)
-		}
-		else
-		{
-			HideObject("Let"+i)
-		}
+		n = AddCharBeginString(i, "0", 2)
+		Keyboard = "Let"+n
+		HideObject(Keyboard)
 	}
-	^KeyboardView = "Hide"
 }
 else
 {
 	for i = 1 ; i < 34 ;  i ++
 	{
-		if i < 10
-		{
-			ShowObject("Let0"+i)
-		}
-		else
-		{
-			ShowObject("Let"+i)
-		}
+		n = AddCharBeginString(i, "0", 2)
+		Keyboard = "Let"+n
+		ShowObject(Keyboard)
 	}
-	^KeyboardView = "Show"
 }
