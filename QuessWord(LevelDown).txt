@@ -4,4 +4,4 @@ if ^Level > 0
 {
 	^Level = ^Level - 1
 }
-Level.text = "Загрузить"
+Level.text = "Загрузить " + ^Level
