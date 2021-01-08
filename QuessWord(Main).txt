@@ -46,6 +46,7 @@ for Index = 0 ; Index < CountRecords ;  Index ++
 	}
 	ListWordTable[Index] = TableComment
 }
+
 HideObject("Image")
 HideObject("MiniImage")
 HideObject("BackLetter")
