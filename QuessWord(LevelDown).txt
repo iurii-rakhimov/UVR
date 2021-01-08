@@ -1,0 +1,7 @@
+// QuessWord(LevelDown).txt
+
+if ^Level > 0
+{
+	^Level = ^Level - 1
+}
+Level.text = "Уровень " + ^Level
