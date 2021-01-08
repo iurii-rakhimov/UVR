@@ -3,4 +3,3 @@
 DoModule CleaWord
 HideObject("Image")
 HideObject("ListWordTable")
-Title.text = ""
