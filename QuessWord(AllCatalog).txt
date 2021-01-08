@@ -22,7 +22,7 @@ QuessPhoto(Img03).txt
 QuessPhoto(Img04).txt
 QuessPhoto(Img05).txt
 QuessPhoto(Img06).txt
-QuessWord(KeyboardShow).txt
+QuessWord(Keyboard).txt
 QuessWord(KeyboardView).txt
 QuessWord(Let01).txt
 QuessWord(Let02).txt
