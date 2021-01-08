@@ -2,7 +2,8 @@
 indexCell = GetIndexSelectCellTableView()
 ^Word = ^ArrayWord[indexCell]
 DoModule View
-DoModule CleaWord
+
+^KeyboardView = "Hide"
 DoModule KeyboardView
 
 
