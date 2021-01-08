@@ -57,6 +57,9 @@ QuessWord(Let30).txt
 QuessWord(Let31).txt
 QuessWord(Let32).txt
 QuessWord(Let33).txt
+QuessWord(LevelDown).txt
+QuessWord(LevelUp).txt
+QuessWord(Level).txt
 QuessWord(List).txt
 QuessWord(ListPhoto).txt
 QuessWord(ListBarPhoto).txt
@@ -66,7 +69,6 @@ QuessWord(NoSaveFile).txt
 QuessWord(QuessWord).txt
 QuessWord(SelectWord).txt
 QuessWord(SpaceLetter).txt
-QuessWord(Title).txt
 QuessWord(View).txt
 QuessWord(ViewKeyboardLetter).txt
 QuessWord(ViewLetter).txt
