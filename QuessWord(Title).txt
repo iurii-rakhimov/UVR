@@ -1,2 +1,0 @@
-// QuessWord(Title).txt
-Title.text = "Собери слово"
