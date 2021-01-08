@@ -1,0 +1,12 @@
+// QuessWord(Keyboard).txt
+
+if ^KeyboardView == "Show"
+{
+	^KeyboardView = "Hide"
+	DoModule KeyboardView
+}
+else
+{
+	^KeyboardView = "Show"
+	DoModule KeyboardView
+}
