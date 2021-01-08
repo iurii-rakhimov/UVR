@@ -1,3 +1,5 @@
 // QuessWord(Level).txt
 
 DoModule LoadLevel
+
+Level.text = "Уровень " + ^Level
