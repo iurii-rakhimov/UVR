@@ -1,6 +1,7 @@
 // QuessWord(View).txt
 
 Word = ^Word
+//Print "Word =" + Word
 lenWord = LengthString(Word)
 if lenWord == 1
 {
@@ -12,7 +13,6 @@ ShowObject("SpaceLetter")
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
-//Print "Word =" + Word
 NameImage = "Image_NO"
 if SelectedIndex != -1
 {
