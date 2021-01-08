@@ -40,7 +40,7 @@ QuessWord	List	Image	@	140	215	50	50	List	255:255:255	242:242:242	0	ListForm40x4
 QuessWord	Keyboard	Image	@	200	220	60	40	Keyboard	255:255:255	242:242:242	0	Keyboard72x72		vertically	
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	SpaceLetter	Image	@	40	215	40	40	SpaceLetter	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
-QuessWord	AddWord	Image	@	210	20	26	26	AddWord	242:242:242	242:242:242	0	Add40x40		vertically	
+QuessWord	EditDictionary	Image	@	210	20	26	26	EditDictionary	242:242:242	242:242:242	0	Edit40x40		vertically	
 QuessWord	ListBarPhoto	Image	@	256	20	26	26	ListBarPhoto	242:242:242	242:242:242	0	Camera40x40		vertically	
 QuessWord	LevelDown	Image	@	22	20	26	26	LevelDown	242:242:242	242:242:242	0	ArrowLeft40x40		vertically	
 QuessWord	LevelUp	Image	@	170	20	26	26	LevelUp	242:242:242	242:242:242	0	ArrowRight40x40		vertically	
