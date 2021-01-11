@@ -2,14 +2,17 @@
 
 Word = ^Word
 //Print "Word =" + Word
+
+ShowObject("BackLetter")
+
 lenWord = LengthString(Word)
 if lenWord == 1
 {
 	HideObject("Image")
 	return
 }
-ShowObject("BackLetter")
 ShowObject("SpaceLetter")
+
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
 ^Index = SelectedIndex
 //Print "SelectedIndex =" + SelectedIndex
