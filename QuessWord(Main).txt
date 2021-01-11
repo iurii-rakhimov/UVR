@@ -8,6 +8,21 @@ w = 115
 h = 240
 //
 Create TableView { Name = ListWordTable, Action= SelectWord, X=x, Y=y, Width=w, Height=h, ModelCell=modelCell }
+
 //
 ^Level = 0
-DoModule LoadLevel
+
+HideObject("Image")
+HideObject("MiniImage")
+HideObject("ListWordTable")
+HideObject("BackLetter")
+HideObject("SpaceLetter")
+HideObject("CleaAll")
+	
+DoModule CleaWord
+
+HideObject("LabelNameImage")
+HideObject("NameImage")
+HideObject("Save")
+
+wait 300
