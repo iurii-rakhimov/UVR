@@ -1,8 +1,0 @@
-// QuessViewPhoto(Main).txt
-
-HideObject("LabelNameImage")
-HideObject("NameImage")
-HideObject("Save")
-
-NomerView = ^NomerPhoto - 1
-ImagePhoto.File = ViewPhotoInBuffer(NomerView)
