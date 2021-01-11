@@ -1,4 +1,1 @@
 // QuessWord(Image).txt
-
-HideObject("Image")
-ShowObject("ListPhoto")
