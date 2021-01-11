@@ -1,0 +1,25 @@
+// QuessWord(Save).txt
+
+path = GetPathDirectoryDocument()
+nameFile = "QuessWord(AllWord" + ^Level + ").txt"
+PathNameFile = path + nameFile
+contentFile = FileRead(PathNameFile)
+
+nameImage = NameImage.text
+NameFileOld = "MyFoto.jpeg"
+NameFileNew = nameImage + ".jpeg"
+kv = RenameFile(NameFileOld, NameFileNew)
+if kv != 0
+{
+	QuessWord.text = "Ошибка переименования"
+	return
+}
+DelimiterNewLine = IntToChar(10)
+contentFile = contentFile + DelimiterNewLine + nameImage + "*" + NameFileNew
+kv = FileWrite(PathNameFile, contentFile)
+if kv != 0
+{
+	QuessWord.text = "Ошибка записи"
+	return
+}
+DoModule LoadLevel
