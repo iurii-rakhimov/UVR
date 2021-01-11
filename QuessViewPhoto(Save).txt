@@ -1,4 +1,0 @@
-// QuessViewPhoto(Save).txt
-
-nameFile = NameImage.text
-ImagePhoto.File = SavePhotoInBuffer(nameFile)
