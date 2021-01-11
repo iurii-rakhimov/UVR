@@ -7,12 +7,11 @@ DoModule CleaWord
 
 DelimiterNewLine = IntToChar(10)
 DelimiterMemo = IntToChar(9989)
-^Path = GetPathDirectoryDocument()
+path = GetPathDirectoryDocument()
 nameFile = "QuessWord(AllWord" + ^Level + ").txt"
-PathNameFile = ^Path + nameFile
-//print "nameFile =" + nameFile
-ContentFile = FileRead(PathNameFile)
-ArrayWordImage = Components(ContentFile, DelimiterNewLine)
+PathNameFile = path + nameFile
+contentFile = FileRead(PathNameFile)
+ArrayWordImage = Components(contentFile, DelimiterNewLine)
 //
 Struct TableComment { Word } 
 //
@@ -50,4 +49,3 @@ ShowObject("ListWordTable")
 Level.text = "Уровень " + ^Level
 
 MessageBarUp("")
-
