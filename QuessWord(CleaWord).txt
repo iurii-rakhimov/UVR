@@ -4,3 +4,14 @@
 QuessWord.text = ""
 ^KeyboardView = "Hide"
 DoModule KeyboardView
+
+HideObject("Back")
+HideObject("LabelNameImage")
+HideObject("NameImage")
+HideObject("Save")
+
+ShowObject("LevelDown")
+ShowObject("Level")
+ShowObject("LevelUp")
+ShowObject("EditDictionary")
+ShowObject("PhotoGallery")
