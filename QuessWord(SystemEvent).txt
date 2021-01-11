@@ -1,0 +1,16 @@
+// QuessWord(SystemEvent).txt
+
+HideObject("LevelDown")
+HideObject("Level")
+HideObject("LevelUp")
+HideObject("EditDictionary")
+HideObject("PhotoGallery")
+
+ShowObject("Back")
+ShowObject("LabelNameImage")
+ShowObject("NameImage")
+ShowObject("Save")
+
+IndexObject = GetIndexObject("SystemStart", "System.Bar.Back")
+HideObjectForIndex(IndexObject)
+//HideObjectForm("SystemStart", "System.Bar.Back")
