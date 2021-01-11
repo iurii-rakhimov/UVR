@@ -8,6 +8,7 @@ QuessWord(Back).txt
 QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
+QuessWord(EditDictionary).txt
 QuessWord(Image).txt
 QuessWord(Keyboard).txt
 QuessWord(KeyboardView).txt
