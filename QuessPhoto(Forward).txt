@@ -1,9 +1,0 @@
-// QuessPhoto(Forward).txt
-^NomerBeginFoto = ^NomerBeginFoto + 6
-^NomerEndFoto = ^NomerEndFoto + 6
-GetInBuferPhoto(^NomerBeginFoto, ^NomerEndFoto)
-
-wait 500, message="Загрузим"
-countInBuferPhoto  = GetCountImageBuffer()
-//Print "countInBuferPhoto=" + countInBuferPhoto
-DoModule View
