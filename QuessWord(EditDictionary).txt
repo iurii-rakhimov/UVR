@@ -1,0 +1,4 @@
+// QuessWord(EditDictionary).txt
+
+nameFileList = "AllWord" + ^Level
+edit nameFileList
