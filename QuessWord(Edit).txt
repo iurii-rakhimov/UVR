@@ -1,4 +1,0 @@
-// QuessWord(Edit).txt
-
-NameModule = "AllWord"
-edit NameModule
