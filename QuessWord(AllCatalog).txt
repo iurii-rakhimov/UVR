@@ -54,7 +54,6 @@ QuessWord(LoadLevel).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
 QuessWord(PhotoGallery).txt
-QuessWord(QuessWord).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
 QuessWord(SpaceLetter).txt
