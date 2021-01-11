@@ -1,5 +1,0 @@
-// QuessPhoto(Main).txt
-
-Title.text = “”
-^NomerBeginFoto = 0
-^NomerEndFoto = 5
