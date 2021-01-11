@@ -53,7 +53,6 @@ QuessWord(ListPhoto).txt
 QuessWord(LoadLevel).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
-QuessWord(NoSaveFile).txt
 QuessWord(PhotoGallery).txt
 QuessWord(QuessWord).txt
 QuessWord(Save).txt
