@@ -1,5 +1,0 @@
-// QuessWord(ListBarPhoto).txt
-
-^CountPhoto = GetCountPhotos()
-DoForm QuessPhoto
-wait 300, message="Загрузим"
