@@ -9,6 +9,8 @@ DoModule KeyboardView
 ^Word = ^ArrayWord[indexCell]
 DoModule ViewKeyboardLetter
 HideObject("Image")
+HideObject("BackLetter")
+HideObject("SpaceLetter")
 
 Word = ^Word
 SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
