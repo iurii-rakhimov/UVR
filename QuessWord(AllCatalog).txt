@@ -3,6 +3,8 @@ QuessWord(AllWord0).txt
 QuessWord(AllWord1).txt
 QuessWord(AllWord2).txt
 QuessWord(AllWord3).txt
+QuessWord(Appear).txt
+QuessWord(Back).txt
 QuessWord(BackLetter).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
