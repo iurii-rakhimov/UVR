@@ -1,5 +1,12 @@
 
 // QuessWord(Let18).txt
 
-^Letter = "Р"
+if ^LanguageDictionary == "Русский"
+{
+	^Letter = "Р"
+}
+else
+{
+	^Letter = "R"
+}
 DoModule ViewLetter
