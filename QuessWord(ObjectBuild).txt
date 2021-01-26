@@ -1,4 +1,4 @@
-QuessWord	Level	Label	@	55	20	110	26	Level	Уровень	79:100:160	255:255:255	13	14	BoldSystemFont	center	Label		vertically		
+QuessWord	Level	Label	@	55	20	90	26	Level	Уровень	79:100:160	255:255:255	13	14	BoldSystemFont	center	Label		vertically		
 QuessWord	Let01	Label	@	0	53	39	39	Let01	А	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let02	Label	@	40	53	39	39	Let02	Б	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
 QuessWord	Let03	Label	@	80	53	39	39	Let03	В	242:242:242	2:2:2	0	22	systemFont	center	Label		vertically		
@@ -40,11 +40,12 @@ QuessWord	List	Image	@	140	215	50	50	List	255:255:255	242:242:242	0	ListForm40x4
 QuessWord	Keyboard	Image	@	200	220	60	40	Keyboard	255:255:255	242:242:242	0	Keyboard72x72		vertically	
 QuessWord	MiniImage	Image	@	250	270	70	40	MiniImage	242:242:242	242:242:242	0	Q980		vertically	
 QuessWord	SpaceLetter	Image	@	40	215	40	40	SpaceLetter	255:255:255	242:242:242	0	SpaceBar40x40		vertically	
-QuessWord	EditDictionary	Image	@	210	20	26	26	EditDictionary	242:242:242	242:242:242	0	Edit40x40		vertically	
-QuessWord	PhotoGallery	Image	@	256	20	26	26	PhotoGallery	242:242:242	242:242:242	0	Camera40x40		vertically	
+QuessWord	EditDictionary	Image	@	230	20	26	26	EditDictionary	242:242:242	242:242:242	0	Edit40x40		vertically	
+QuessWord	PhotoGallery	Image	@	266	20	26	26	PhotoGallery	242:242:242	242:242:242	0	Camera40x40		vertically	
 QuessWord	LevelDown	Image	@	22	20	26	26	LevelDown	242:242:242	242:242:242	0	ArrowLeft40x40		vertically	
-QuessWord	LevelUp	Image	@	170	20	26	26	LevelUp	242:242:242	242:242:242	0	ArrowRight40x40		vertically	
-QuessWord	Save	Image	@	230	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
+QuessWord	LevelUp	Image	@	150	20	26	26	LevelUp	242:242:242	242:242:242	0	ArrowRight40x40		vertically	
+QuessWord	Save	Image	@	240	20	26	26	Save	255:255:255	242:242:242	0	Save40x40		vertically	
 QuessWord	LabelNameImage	Label	@	30	20	80	26		Имя файла	242:242:242	2:2:2	0	15	systemFont	center	Label		vertically		
 QuessWord	NameImage	TextField	@	110	20	100	26				255:255:255	2:2:2	0	22	systemFont		vertically	vertically		
 QuessWord	Back	Image	@	0	20	26	26	Back	242:242:242	242:242:242	0	Back40x40		vertically	
+QuessWord	BookDictionary	Label	@	190	20	30	26	BookDictionary	Ru	79:100:160	255:255:255	13	14	BoldSystemFont	center	Label		vertically		
