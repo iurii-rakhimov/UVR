@@ -1,172 +1,541 @@
 // QuessWord(ViewKeyboardLetter).txt
 
-ArrayComponents = Components(^Word, "")
+Word = Uppercased(^Word)
+ArrayComponents = Components(Word, "")
 countComponents = CountElementsOfArray(ArrayComponents)
 for i = 0 ; i < countComponents ;  i ++
 {
-	if ArrayComponents[i] == "А"
+	Letter = ArrayComponents[i]
+//Print "ArrayComponents[" + i + "]=" + Letter
+	if Letter == "А"
 	{
-		ShowObject("Let01")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let01.text = Letter
+			ShowObject("Let01")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Б"
+	if Letter == "A"
 	{
-		ShowObject("Let02")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let01.text = Letter
+			ShowObject("Let01")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "В"
+	if Letter == "Б"
 	{
-		ShowObject("Let03")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let02.text = Letter
+			ShowObject("Let02")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Г"
+	if Letter == "B"
 	{
-		ShowObject("Let04")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let02.text = Letter
+			ShowObject("Let02")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Д"
+	if Letter == "В"
 	{
-		ShowObject("Let05")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let03.text = Letter
+			ShowObject("Let03")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Е"
+	if Letter == "C"
 	{
-		ShowObject("Let06")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let03.text = Letter
+			ShowObject("Let03")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ё"
+	if Letter == "Г"
 	{
-		ShowObject("Let07")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let04.text = Letter
+			ShowObject("Let04")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ж"
+	if Letter == "D"
 	{
-		ShowObject("Let08")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let04.text = Letter
+			ShowObject("Let04")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "З"
+	if Letter == "Д"
 	{
-		ShowObject("Let09")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let05.text = Letter
+			ShowObject("Let05")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "И"
+	if Letter == "E"
 	{
-		ShowObject("Let10")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let05.text = Letter
+			ShowObject("Let05")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Й"
+	if Letter == "Е"
 	{
-		ShowObject("Let11")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let06.text = Letter
+			ShowObject("Let06")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "К"
+	if Letter == "F"
 	{
-		ShowObject("Let12")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let06.text = Letter
+			ShowObject("Let06")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Л"
+	if Letter == "Ё"
 	{
-		ShowObject("Let13")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let07.text = Letter
+			ShowObject("Let07")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "М"
+	if Letter == "G"
 	{
-		ShowObject("Let14")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let07.text = Letter
+			ShowObject("Let07")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Н"
+	if Letter == "Ж"
 	{
-		ShowObject("Let15")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let08.text = Letter
+			ShowObject("Let08")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "О"
+	if Letter == "H"
 	{
-		ShowObject("Let16")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let08.text = Letter
+			ShowObject("Let08")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "П"
+	if Letter == "З"
 	{
-		ShowObject("Let17")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let09.text = Letter
+			ShowObject("Let09")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Р"
+	if Letter == "I"
 	{
-		ShowObject("Let18")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let09.text = Letter
+			ShowObject("Let09")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "С"
+	if Letter == "И"
 	{
-		ShowObject("Let19")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let10.text = Letter
+			ShowObject("Let10")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Т"
+	if Letter == "J"
 	{
-		ShowObject("Let20")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let10.text = Letter
+			ShowObject("Let10")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "У"
+	if Letter == "Й"
 	{
-		ShowObject("Let21")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let11.text = Letter
+			ShowObject("Let11")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ф"
+	if Letter == "K"
 	{
-		ShowObject("Let22")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let11.text = Letter
+			ShowObject("Let11")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Х"
+	if Letter == "К"
 	{
-		ShowObject("Let23")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let12.text = Letter
+			ShowObject("Let12")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ц"
+	if Letter == "L"
 	{
-		ShowObject("Let24")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let12.text = Letter
+			ShowObject("Let12")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ч"
+	if Letter == "Л"
 	{
-		ShowObject("Let25")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let13.text = Letter
+			ShowObject("Let13")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ш"
+	if Letter == "M"
 	{
-		ShowObject("Let26")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let13.text = Letter
+			ShowObject("Let13")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Щ"
+	if Letter == "М"
 	{
-		ShowObject("Let27")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let14.text = Letter
+			ShowObject("Let14")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ъ"
+	if Letter == "N"
 	{
-		ShowObject("Let28")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let14.text = Letter
+			ShowObject("Let14")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ы"
+	if Letter == "Н"
 	{
-		ShowObject("Let29")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let15.text = Letter
+			ShowObject("Let15")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ь"
+	if Letter == "O"
 	{
-		ShowObject("Let30")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let15.text = Letter
+			ShowObject("Let15")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Э"
+	if Letter == "О"
 	{
-		ShowObject("Let31")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let16.text = Letter
+			ShowObject("Let16")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Ю"
+	if Letter == "P"
 	{
-		ShowObject("Let32")
+		if ^LanguageDictionary != "Русский"
+		{
+			Let16.text = Letter
+			ShowObject("Let16")
+		}
 		continue
 	}
-	if ArrayComponents[i] == "Я"
+	if Letter == "П"
 	{
-		ShowObject("Let33")
+		if ^LanguageDictionary == "Русский"
+		{
+			Let17.text = Letter
+			ShowObject("Let17")
+		}
+		continue
+	}
+	if Letter == "Q"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let17.text = Letter
+			ShowObject("Let17")
+		}
+		continue
+	}
+	if Letter == "Р"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let18.text = Letter
+			ShowObject("Let18")
+		}
+		continue
+	}
+	if Letter == "R"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let18.text = Letter
+			ShowObject("Let18")
+		}
+		continue
+	}
+	if Letter == "С"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let19.text = Letter
+			ShowObject("Let19")
+		}
+		continue
+	}
+	if Letter == "S"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let19.text = Letter
+			ShowObject("Let19")
+		}
+		continue
+	}
+	if Letter == "Т"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let20.text = Letter
+			ShowObject("Let20")
+		}
+		continue
+	}
+	if Letter == "T"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let20.text = Letter
+			ShowObject("Let20")
+		}
+		continue
+	}
+	if Letter == "У"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let21.text = Letter
+			ShowObject("Let21")
+		}
+		continue
+	}
+	if Letter == "U"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let21.text = Letter
+			ShowObject("Let21")
+		}
+		continue
+	}
+	if Letter == "Ф"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let22.text = Letter
+			ShowObject("Let22")
+		}
+		continue
+	}
+	if Letter == "V"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let22.text = Letter
+			ShowObject("Let22")
+		}
+		continue
+	}
+	if Letter == "Х"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let23.text = Letter
+			ShowObject("Let23")
+		}
+		continue
+	}
+	if Letter == "W"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let23.text = Letter
+			ShowObject("Let23")
+		}
+		continue
+	}
+	if Letter == "Ц"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let24.text = Letter
+			ShowObject("Let24")
+		}
+		continue
+	}
+	if Letter == "X"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let24.text = Letter
+			ShowObject("Let24")
+		}
+		continue
+	}
+	if Letter == "Ч"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let25.text = Letter
+			ShowObject("Let25")
+		}
+		continue
+	}
+	if Letter == "Y"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let25.text = Letter
+			ShowObject("Let25")
+		}
+		continue
+	}
+	if Letter == "Ш"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let26.text = Letter
+			ShowObject("Let26")
+		}
+		continue
+	}
+	if Letter == "Z"
+	{
+		if ^LanguageDictionary != "Русский"
+		{
+			Let25.text = Letter
+			ShowObject("Let25")
+		}
+		continue
+	}
+	if Letter == "Щ"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let27.text = Letter
+			ShowObject("Let27")
+		}
+		continue
+	}
+	if Letter == "Ъ"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let28.text = Letter
+			ShowObject("Let28")
+		}
+		continue
+	}
+	if Letter == "Ы"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let29.text = Letter
+			ShowObject("Let29")
+		}
+		continue
+	}
+	if Letter == "Ь"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let30.text = Letter
+			ShowObject("Let30")
+		}
+		continue
+	}
+	if Letter == "Э"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let31.text = Letter
+			ShowObject("Let31")
+		}
+		continue
+	}
+	if Letter == "Ю"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let32.text = Letter
+			ShowObject("Let32")
+		}
+		continue
+	}
+	if Letter == "Я"
+	{
+		if ^LanguageDictionary == "Русский"
+		{
+			Let33.text = Letter
+			ShowObject("Let33")
+		}
 		continue
 	}
 }
