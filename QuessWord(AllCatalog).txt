@@ -50,7 +50,6 @@ QuessWord(Level).txt
 QuessWord(LevelDown).txt
 QuessWord(LevelUp).txt
 QuessWord(List).txt
-QuessWord(ListPhoto).txt
 QuessWord(LoadLevel).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
