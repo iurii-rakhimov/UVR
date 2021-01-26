@@ -1,4 +1,11 @@
 // QuessWord(EditDictionary).txt
 
-nameFileList = "AllWord" + ^Level
-edit nameFileList
+if ^LanguageDictionary == "Русский"
+{
+	nameFile = "AllWordRu" + ^Level
+}
+else
+{
+	nameFile = "AllWordEn" + ^Level
+}
+edit nameFile
