@@ -1,0 +1,14 @@
+// QuessWord(BookDictionary).txt
+
+if ^LanguageDictionary == "Русский"
+{
+	^LanguageDictionary = "English"
+	BookDictionary.text = "En"
+}
+else
+{
+	^LanguageDictionary = "Русский"
+	BookDictionary.text = "Ru"
+}
+
+DoModule LoadLevel
