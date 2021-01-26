@@ -1,7 +1,14 @@
 // QuessWord(Save).txt
 
 path = GetPathDirectoryDocument()
-nameFile = "QuessWord(AllWord" + ^Level + ").txt"
+if ^LanguageDictionary == "Русский"
+{
+	nameFile = "QuessWord(AllWordRu" + ^Level + ").txt"
+}
+else
+{
+	nameFile = "QuessWord(AllWordEn" + ^Level + ").txt"
+}
 PathNameFile = path + nameFile
 contentFile = FileRead(PathNameFile)
 
