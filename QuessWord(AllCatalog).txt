@@ -1,11 +1,12 @@
-QuessWord(ObjectBuild).txt
-QuessWord(AllWord0).txt
-QuessWord(AllWord1).txt
-QuessWord(AllWord2).txt
-QuessWord(AllWord3).txt
+QuessWord(AllWordEn0).txt
+QuessWord(AllWordRu0).txt
+QuessWord(AllWordRu1).txt
+QuessWord(AllWordRu2).txt
+QuessWord(AllWordRu3).txt
 QuessWord(Appear).txt
 QuessWord(Back).txt
 QuessWord(BackLetter).txt
+QuessWord(BookDictionary).txt
 QuessWord(CleaAll).txt
 QuessWord(CleaWord).txt
 QuessWord(EditDictionary).txt
@@ -53,6 +54,7 @@ QuessWord(ListPhoto).txt
 QuessWord(LoadLevel).txt
 QuessWord(Main).txt
 QuessWord(MiniImage).txt
+QuessWord(ObjectBuild).txt
 QuessWord(PhotoGallery).txt
 QuessWord(Save).txt
 QuessWord(SelectWord).txt
