@@ -1,34 +1,45 @@
 // QuessWord(SelectWord).txt
 indexCell = GetIndexSelectCellTableView()
-^Word = ^ArrayWord[indexCell]
+//Print "indexCell =" + indexCell
+
+^EmojiWord = ^ArrayWord[indexCell]
+Length = LengthString(^EmojiWord)
+^Word = SubString(^EmojiWord, 2, Length)
+^Length = Length - 2
+
 DoModule View
 
+// скроем клавиатуру
 ^KeyboardView = "Hide"
 DoModule KeyboardView
 
-^Word = ^ArrayWord[indexCell]
+// выведем те буквы, что есть в слове
 DoModule ViewKeyboardLetter
+
 HideObject("Image")
 HideObject("BackLetter")
 HideObject("SpaceLetter")
 
 Word = ^Word
-SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, Word, "/", 0)
+SelectedIndex = GetIndexArrayForComponentWithNumber(^ArrayWord, ^EmojiWord, "/", 0)
 NameImage = "Image_NO"
 if SelectedIndex != -1
 {
 	if ^ArrayImage[SelectedIndex] == ""
 	{
-		if ^ArrayWord[SelectedIndex] == Word
+		if ^ArrayWord[SelectedIndex] == ^EmojiWord
 		{
 			NameImage = "Ok320x240"
 		}
+//Print "No"
 	}
 	else
 	{
-		if ^ArrayWord[SelectedIndex] == Word
+//Print "Yes"
+		if ^ArrayWord[SelectedIndex] == ^EmojiWord
 		{
 			NameImage = ^ArrayImage[SelectedIndex]
+//Print "NameImage =" + NameImage
 		}
 	}
 }
