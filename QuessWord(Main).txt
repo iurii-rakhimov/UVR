@@ -1,5 +1,17 @@
 // QuessWord(Main).txt
 
+^LanguageDictionary = Language()
+if ^LanguageDictionary == "Русский"
+{
+	BookDictionary.text = "Ru"
+}
+else
+{
+	BookDictionary.text = "En"
+}
+
+// создаем таблицу
+
 Create Label { Name = Word, Action = SelectComment, TextColor = "Black", BackgroundColor = "White", X=0, Y = 0, Width = 110, Height = 20, FontName = "systemFont", FontSize=12, Alignment = "Left", CornerRadius = 0, ModelCell = modelCell[0] }
 //
 x = 0
