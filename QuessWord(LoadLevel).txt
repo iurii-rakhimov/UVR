@@ -1,43 +1,122 @@
 // QuessWord(LoadLevel).txt
+Remove ^ArrayWord
+Remove ^ArrayImage
+ListWordTable = []
 
 MessageBarUp("Ждите !!!")
 wait 100
 
+if ^LanguageDictionary == "Русский"
+{
+	Let01.text = "А"
+	Let02.text = "Б"
+	Let03.text = "В"
+	Let04.text = "Г"
+	Let05.text = "Д"
+	Let06.text = "Е"
+	Let07.text = "Ё"
+	Let08.text = "Ж"
+	Let09.text = "З"
+	Let10.text = "И"
+	Let11.text = "Й"
+	Let12.text = "К"
+	Let13.text = "Л"
+	Let14.text = "М"
+	Let15.text = "Н"
+	Let16.text = "О"
+	Let17.text = "П"
+	Let18.text = "Р"
+	Let19.text = "С"
+	Let20.text = "Т"
+	Let21.text = "У"
+	Let22.text = "Ф"
+	Let23.text = "Х"
+	Let24.text = "Ц"
+	Let25.text = "Ч"
+	Let26.text = "Ш"
+	Let27.text = "Щ"
+	Let28.text = "Ъ"
+	Let29.text = "Ы"
+	Let30.text = "Ь"
+	Let31.text = "Э"
+	Let32.text = "Ю"
+	Let33.text = "Я"
+}
+else
+{
+	Let01.text = "A"
+	Let02.text = "B"
+	Let03.text = "C"
+	Let04.text = "D"
+	Let05.text = "E"
+	Let06.text = "F"
+	Let07.text = "G"
+	Let08.text = "H"
+	Let09.text = "I"
+	Let10.text = "J"
+	Let11.text = "K"
+	Let12.text = "L"
+	Let13.text = "M"
+	Let14.text = "N"
+	Let15.text = "O"
+	Let16.text = "P"
+	Let17.text = "Q"
+	Let18.text = "R"
+	Let19.text = "S"
+	Let20.text = "T"
+	Let21.text = "U"
+	Let22.text = "V"
+	Let23.text = "W"
+	Let24.text = "X"
+	Let25.text = "Y"
+	Let26.text = "Z"
+	Let27.text = " "
+	Let28.text = " "
+	Let29.text = " "
+	Let30.text = " "
+	Let31.text = " "
+	Let32.text = " "
+	Let33.text = " "
+	HideObject("Let26")
+	HideObject("Let27")
+	HideObject("Let28")
+	HideObject("Let29")
+	HideObject("Let30")
+	HideObject("Let31")
+	HideObject("Let32")
+	HideObject("Let33")
+}
+
 DoModule CleaWord
 
 DelimiterNewLine = IntToChar(10)
-DelimiterMemo = IntToChar(9989)
 path = GetPathDirectoryDocument()
-nameFile = "QuessWord(AllWord" + ^Level + ").txt"
-PathNameFile = path + nameFile
-contentFile = FileRead(PathNameFile)
-ArrayWordImage = Components(contentFile, DelimiterNewLine)
-//
-Struct TableComment { Word } 
-//
-CountRecords = CountElementsOfArray(ArrayWordImage)
-for Index = 0 ; Index < CountRecords ;  Index ++
+
+if ^LanguageDictionary == "Русский"
 {
-	WordImage = ArrayWordImage[Index]
-	ArrayComponents = Components(WordImage, "*")
-	Word = ArrayComponents[0]
-	Word = Uppercased(Word)
-	^ArrayWord[Index] = Word
-	countComponents = CountElementsOfArray(ArrayComponents)
-	^ArrayImage[Index] = ""
-//print "Word(" + Index + ")=" + Word
-	if countComponents > 1
-	{
-		TableComment.Word = DelimiterMemo + " " + Word
-		Image = ArrayComponents[1]
-		^ArrayImage[Index] = Image
-	}
-	else
-	{
-		TableComment.Word = "❌" + " " + Word
-	}
-	ListWordTable[Index] = TableComment
+	nameFile = "QuessWord(AllWordRu" + ^Level + ").txt"
 }
+else
+{
+	nameFile = "QuessWord(AllWordEn" + ^Level + ").txt"
+}
+//print "nameFile=" + nameFile
+PathNameFile = path + nameFile
+FileReadToArray(PathNameFile, ArrayWordImage, DelimiterNewLine)
+
+//
+Struct TableWord { Word } 
+//
+Struct StructRecord { Word, Address }
+Struct StructWord { Word }
+Struct StructAddressImage { Address }
+
+DelimiterMemo = IntToChar(9989) //✅
+
+CREATE ARRAY (^ArrayWord, StructWord, "") FROM (ArrayWordImage, StructRecord, "*") SET (Word = "❌"+" "+Uppercased(Word) WHERE Address == "", Word = DelimiterMemo +" "+Uppercased(Word) WHERE Address != "")
+CREATE ARRAY (^ArrayImage, StructAddressImage, "") FROM (ArrayWordImage, StructRecord, "*")
+
+UPDATE TableView (TableWord, ^ArrayWord, StructWord, "")
 
 HideObject("Image")
 HideObject("MiniImage")
