@@ -1,0 +1,33 @@
+// Excursion(FotoMaps).txt
+
+NumberObject = ^NumberObject
+
+imageFoto = FotoMaps.file
+Title.text = imageFoto
+if imageFoto == "MyFoto.jpg"
+{
+	imageObject = ^ArrayPropertyObject[NumberObject]
+	FotoMaps.file = imageObject
+	HideObject("TextObject")
+	DoModule Excursion
+	return
+}
+
+FotoMaps.file = "MyFoto.jpg"
+
+NumberObject = ^NumberObject
+imageObject = ^ArrayPropertyObject[NumberObject]
+NameObject = GetComponentString(imageObject, ".", 0)
+NameFile = NameObject + ".txt"
+PathNameFile = ^Path + NameFile
+
+contentFile = FileRead(PathNameFile)
+if contentFile == ""
+{
+	imageObject = ^ArrayPropertyObject[NumberObject]
+	FotoMaps.file = imageObject
+	HideObject("TextObject")
+	DoModule Excursion
+	return
+}
+TextObject.text = contentFile
