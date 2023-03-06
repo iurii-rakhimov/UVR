@@ -1,0 +1,189 @@
+// Excursion(Excursion).txt
+
+Maps.file = "MyFoto.jpg"
+
+HideObject("FotoMaps")
+
+NameFile = "Excursion(" + ^MyExcursion + ").txt"
+PathNameFile = ^Path + NameFile
+
+FileReadToArray(PathNameFile, ArrayObject, ^DelimiterNewLine)
+countElementsOfArrayObject = CountElementsOfArray(ArrayObject)
+countElementsOfArrayObject = countElementsOfArrayObject - 1
+j = 0
+k = 0
+cycle index = 1 ; index < countElementsOfArrayObject
+{
+	strCoordinatXY = ArrayObject[index]
+	if strCoordinatXY == ""
+	{
+		continue
+	}
+	NameObject = GetComponentString(strCoordinatXY, " ", 0)
+	if NameObject == "Карта"
+	{
+		ArrayCoordinatMapY[j] = GetComponentString(strCoordinatXY, " ", 1)
+		ArrayCoordinatMapX[j] = GetComponentString(strCoordinatXY, " ", 2)
+		j = j + 1
+	}
+	else
+	{
+		^ArrayTypeObject[k] = GetComponentString(strCoordinatXY, " ", 0)
+		^ArrayCoordinatObjectY[k] = GetComponentString(strCoordinatXY, " ", 1)
+		^ArrayCoordinatObjectX[k] = GetComponentString(strCoordinatXY, " ", 2)
+		^ArrayPropertyObject[k] = GetComponentString(strCoordinatXY, " ", 3)
+		k = k + 1
+	}
+}
+Struct StructCoordinats { Coordinat }
+i = GetIndexArrayMaxValueComponentStruct(ArrayCoordinatMapY, StructCoordinats, 'Coordinat', ' ')
+^maxY = ArrayCoordinatMapY[i]
+i = GetIndexArrayMinValueComponentStruct(ArrayCoordinatMapY, StructCoordinats, 'Coordinat', ' ')
+^minY = ArrayCoordinatMapY[i]
+i = GetIndexArrayMaxValueComponentStruct(ArrayCoordinatMapX, StructCoordinats, 'Coordinat', ' ')
+^maxX = ArrayCoordinatMapX[i]
+i = GetIndexArrayMinValueComponentStruct(ArrayCoordinatMapX, StructCoordinats, 'Coordinat', ' ')
+^minX = ArrayCoordinatMapX[i]
+
+^lenX = ^maxX - ^minX
+^lenY = ^maxY - ^minY
+
+Midle = ^lenX / 2
+^X = ^minX + Midle
+
+Midle = ^lenY / 2
+^Y = ^minY + Midle
+
+ShowObject("MyStart")
+ShowObject("MyStop")
+
+cycle index= 0 ; index < k
+{
+	^Y = ^ArrayCoordinatObjectY[index]
+	^X = ^ArrayCoordinatObjectX[index]
+	typeObject = ^ArrayTypeObject[index]
+	if typeObject == "🗽"
+	{
+		backgroundColor = "Red"
+	}
+	if index == 0
+	{
+		DoModule PositionCalculate
+		Object0.X = ^CoordX
+		Object0.Y = ^CoordY
+		Object0.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object0.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 1
+	{
+		DoModule PositionCalculate
+		Object1.X = ^CoordX
+		Object1.Y = ^CoordY
+		Object1.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object1.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 2
+	{
+		DoModule PositionCalculate
+		Object2.X = ^CoordX
+		Object2.Y = ^CoordY
+		Object2.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object2.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 3
+	{
+		DoModule PositionCalculate
+		Object3.X = ^CoordX
+		Object3.Y = ^CoordY
+		Object3.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object3.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 4
+	{
+		DoModule PositionCalculate
+		Object4.X = ^CoordX
+		Object4.Y = ^CoordY
+		Object4.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object4.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 5
+	{
+		DoModule PositionCalculate
+		Object5.X = ^CoordX
+		Object5.Y = ^CoordY
+		Object5.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object5.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 6
+	{
+		DoModule PositionCalculate
+		Object6.X = ^CoordX
+		Object6.Y = ^CoordY
+		Object6.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object6.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 7
+	{
+		DoModule PositionCalculate
+		Object7.X = ^CoordX
+		Object7.Y = ^CoordY
+		Object7.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object7.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 8
+	{
+		DoModule PositionCalculate
+		Object8.X = ^CoordX
+		Object8.Y = ^CoordY
+		Object8.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object8.backgroundColor = "Red"
+		}
+		continue
+	}
+	if index == 9
+	{
+		DoModule PositionCalculate
+		Object9.X = ^CoordX
+		Object9.Y = ^CoordY
+		Object9.text = typeObject
+		if typeObject == "🗽"
+		{
+			Object9.backgroundColor = "Red"
+		}
+		continue
+	}
+}
