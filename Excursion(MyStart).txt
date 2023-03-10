@@ -1,0 +1,16 @@
+// Excursion(MyStart).txt
+
+if ^MyExcursion == 0
+{
+	// 55.75074473547692, 37.719729701210944 кухня правый угол
+
+	^Y = 55.75074473547692
+	^X = 37.719729701210944
+}
+
+TimerInterval = 100
+DoModule ViewPosition, StartInterval=TimerInterval
+
+HideObject("MyStart")
+ShowObject("MyStop")
+
