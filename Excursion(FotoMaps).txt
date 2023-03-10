@@ -31,3 +31,4 @@ if contentFile == ""
 	return
 }
 TextObject.text = contentFile
+//
