@@ -1,0 +1,37 @@
+// Excursion(Main).txt
+
+TriggerLocationDevice
+
+StrLocationDeviceLatitude = LocationDeviceLatitude()
+
+StrLocationDeviceLongitude = LocationDeviceLongitude()
+
+//Title.text = StrLocationDeviceLatitude + “ “ + StrLocationDeviceLongitude
+
+Remove ExternalVariables
+
+HideObject("MyStart")
+HideObject("MyStop")
+HideObject("MyPosition")
+HideObject("Maps")
+HideObject("SystemEvent")
+HideObject("TextObject")
+HideObject("FotoNext")
+HideObject("FotoPrevious")
+
+DoModule HideObject
+
+^Path = GetPathDirectoryDocument()
+^DelimiterNewLine = IntToChar(10)
+
+Title.text = ""
+
+Struct TableMyExcursion { MyExcursion }
+MyExcursion = "Маршрут Авиамоторная"
+TableMyExcursion.MyExcursion = MyExcursion
+ListMyExcursion[0] = TableMyExcursion
+//
+MyExcursion = "Центр"
+TableMyExcursion.MyExcursion = MyExcursion
+ListMyExcursion[1] = TableMyExcursion
+//
