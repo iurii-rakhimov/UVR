@@ -1,0 +1,8 @@
+// Excursion(MyExcursion).txt
+
+MyExcursion = GetIndexSelectCellTableView()
+
+HideObject("ListMyExcursion")
+
+^MyExcursion = MyExcursion
+DoModule Excursion
