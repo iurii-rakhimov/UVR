@@ -1,0 +1,17 @@
+// Excursion(FotoNext).txt
+
+NumberObject = ^NumberObject
+imageAllObject = ^ArrayPropertyObject[NumberObject]
+NumberImageObject = ^NumberImageObject
+NumberImageObject = NumberImageObject + 1
+imageObject = GetComponentString(imageAllObject, ",", NumberImageObject)
+if imageObject == ""
+{
+	return
+}
+
+^NumberImageObject = NumberImageObject
+Title.text = imageObject
+
+FotoMaps.file = imageObject
+Maps.file = imageObject
