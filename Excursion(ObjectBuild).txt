@@ -1,0 +1,33 @@
+Excursion	MyPosition	Label	@	20	25	14	14	MyPosition	P	255:0:0	0:0:0	7	10	systemFont	center	Label		vertically		
+Excursion	Maps	Image	@	0	51	320	430	Maps	242:242:242	242:242:242	0	Help100x100		vertically	
+Excursion	FotoF	Label	@	0	480	320	88			242:242:242	2:2:2	0	16	systemFont	center	Label		vertically		
+Excursion	FotoFon	Label	@	0	480	320	80		текст	242:242:242	2:2:2	0	16	systemFont	center	Label		vertically		
+Excursion	TextObject	TextView	@	0	51	320	430				242:242:242	2:2:2	0	16	systemFont		vertically	vertically		
+Excursion	FotoNext	Image	@	220	480	80	80	FotoNext	242:242:242	242:242:242	0	DoubleRight980x980		vertically	
+Excursion	FotoPrevious	Image	@	20	480	80	80	FotoPrevious	242:242:242	242:242:242	0	DoubleLeft980x980		vertically	
+Excursion	Title	Label	@	60	25	200	20	Title	Title	242:242:242	0:0:0	0	10	systemFont	center	Label		vertically		
+Excursion	MyStop	Image	@	260	23	26	26	MyStop	242:242:242	242:242:242	0	Stop512		vertically	
+Excursion	SystemEvent	Label	@	40	25	20	20	SystemEvent		128:255:0	0:0:0	10	10	systemFont	center	Label		vertically		
+Excursion	MyStart	Image	@	260	23	26	26	MyStart	242:242:242	242:242:242	0	Trace1024		vertically	
+Excursion	ListMyExcursion	TableView	@	5	100	310	380		Excursion&MyExcursion&Label&@&14&4&196&21&SelectExcursion&текст&0:77:255&255:255:255&10&10&systemFont&центр&Label&&vertically&&#Excursion&LineLeft&Label&@&0&0&14&28&&&255:255:255&2:2:2&0&11&systemFont&center&Label&&vertically&&	vertically										
+Excursion	FotoMaps	Image	@	120	480	80	80	FotoMaps	242:242:242	242:242:242	0	Camera40x40		vertically	
+Excursion	Object0	Label	@	20	480	20	20	Object	0	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object1	Label	@	50	480	20	20	Object	1	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object2	Label	@	80	480	20	20	Object	2	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object3	Label	@	110	480	20	20	Object	3	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object4	Label	@	140	480	20	20	Object	4	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object5	Label	@	170	480	20	20	Object	5	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object6	Label	@	200	480	20	20	Object	6	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object7	Label	@	230	480	20	20	Object	7	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object8	Label	@	260	480	20	20	Object	8	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object9	Label	@	290	480	20	20	Object	9	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object10	Label	@	20	510	20	20	Object	10	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object11	Label	@	50	510	20	20	Object	11	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object12	Label	@	80	510	20	20	Object	12	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object13	Label	@	110	510	20	20	Object	13	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object14	Label	@	140	510	20	20	Object	14	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object15	Label	@	170	510	20	20	Object	15	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object16	Label	@	200	510	20	20	Object	16	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object17	Label	@	230	510	20	20	Object	17	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object18	Label	@	260	510	20	20	Object	18	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
+Excursion	Object19	Label	@	290	510	20	20	Object	19	0:255:255	0:0:0	0	16	systemFont	center	Label		vertically		
