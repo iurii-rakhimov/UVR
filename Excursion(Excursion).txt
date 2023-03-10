@@ -55,7 +55,6 @@ Midle = ^lenY / 2
 ^Y = ^minY + Midle
 
 ShowObject("MyStart")
-ShowObject("MyStop")
 
 cycle index= 0 ; index < k
 {
