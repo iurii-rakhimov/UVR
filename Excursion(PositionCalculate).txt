@@ -1,0 +1,27 @@
+// Excursion(PositionCalculate).txt
+
+lX = ^X - ^minX
+lY = ^maxY - ^Y
+
+myCoordX = lX * 320 * ^SystemCoefficientSizeForRun
+myCoordX = myCoordX / ^lenX
+myCoordX = myCoordX + ^xOffsetUserVertically
+
+if  ^ScreenWidth <= myCoordX
+{
+	myCoordX = myCoordX - 16
+}
+^CoordX = ConvertFloatToInt(myCoordX)
+
+myCoordY = lY * 430 * ^SystemCoefficientSizeForRun
+myCoordY = myCoordY / ^lenY
+if  ^ScreenHeight <= myCoordY
+{
+	myCoordY = myCoordY - 16
+}
+
+smeY = 44 * ^SystemCoefficientSizeForRun
+
+myCoordY = myCoordY + smeY
+
+^CoordY = ConvertFloatToInt(myCoordY)
