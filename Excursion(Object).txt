@@ -1,0 +1,22 @@
+// Excursion(Object).txt
+
+IndexObjectAction = GetIndexObjectAction()
+NameObjectAction = GetNameObjectAction(IndexObjectAction)
+//Title.text = NameObjectAction
+
+NumberObject = SubString(NameObjectAction, 6, 7)
+^NumberObject = NumberObject
+imageAllObject = ^ArrayPropertyObject[NumberObject]
+NumberImageObject = 0
+^NumberImageObject = NumberImageObject
+imageObject = GetComponentString(imageAllObject, ",", NumberImageObject)
+
+Title.text = imageObject
+
+FotoMaps.file = imageObject
+Maps.file = imageObject
+
+DoModule HideObject
+
+ShowObject("FotoNext")
+ShowObject("FotoPrevious")
