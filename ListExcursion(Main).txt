@@ -1,0 +1,16 @@
+// ListExcursion(Main).txt
+
+countExcursion = CountElementsOfArray(^ArrayExcursion)
+
+// выводим список объектов в таблицу
+Remove ListObject[]
+
+Struct TableMyExcursion { NameExcursion }
+cycle i = 0 ; i < countExcursion
+{
+    strRecord = ^ArrayExcursion[i]
+    arrayProperty = Components(strRecord, "📍")
+    nameExcursion = arrayProperty[0]
+    TableMyExcursion.NameExcursion = nameExcursion
+    ListExcursion[i] = TableMyExcursion
+}
